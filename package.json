@@ -1,0 +1,23 @@
+{
+  "name": "personal-portfolio_project",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forLoop94/Personal-Portfolio_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forLoop94/Personal-Portfolio_project/issues"
+  },
+  "homepage": "https://github.com/forLoop94/Personal-Portfolio_project#readme",
+  "devDependencies": {
+    "hint": "^7.1.5"
+  }
+}
