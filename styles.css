@@ -12,6 +12,37 @@ header {
   height: 92px;
   width: 375px;
   background: #3C3A39;
+
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+#menu-btn {
+  width: 16px;
+  top: 0px;
+  left: 4px;
+  margin: 68px 24px 24.36px 0px;
+}
+.logo {
+  height: 24px;
+  width: 70px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 56px 0px 0px 24px;
+}
+.menu-bar {
+  width: 16px;
+  height: 2px;
+  background-color: #FFFFFF;
+  margin: 2px 0;
+}
+.menu-bar:hover {
+  background-color: #ACB7C3;
 }
 #headline-section {
   height: 590px;
@@ -37,37 +68,26 @@ h1 {
 #introduction-text {
   width: 327px;
   height: 27px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-
   display: flex;
   align-items: center;
   color: #FFF5E1;
+  margin: 10px 0px;
 }
 #brief-description {
   width: 327px;
-height: 123px;
-
-/* Theme 1 / Body Reguler 2 */
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
-
-
-/* Theme 3 / Neutral 11 */
-
-color: #FFFFFF;
-
+  height: 123px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
 }
-
 #contact {
   display: flex;
 }
