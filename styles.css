@@ -3,55 +3,63 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background: #E5E5E5;
+  background: #e5e5e5;
   display: flex;
   justify-content: center;
 }
+
 header {
   height: 92px;
   width: 375px;
-  background: #3C3A39;
-
+  background: #3c3a39;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
 }
+
 #menu-btn {
   width: 16px;
-  top: 0px;
+  top: 0;
   left: 4px;
-  margin: 68px 24px 24.36px 0px;
+  margin: 68px 24px 24.36px 0;
 }
+
 .logo {
   height: 24px;
   width: 70px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF;
-  margin: 56px 0px 0px 24px;
+  color: #fff;
+  margin: 56px 0 0 24px;
 }
+
 .menu-bar {
   width: 16px;
   height: 2px;
-  background-color: #FFFFFF;
+  background-color: #fff;
   margin: 2px 0;
 }
+
 .menu-bar:hover {
-  background-color: #ACB7C3;
+  background-color: #acb7c3;
 }
+
 #headline-section {
   height: 590px;
   width: 375px;
-  left: 0px;
+  left: 0;
   top: 92px;
   padding: 120px 24px 120px 24px;
-  background: #1C1A19;
+  background: #1c1a19;
 }
+
 h1 {
   height: 124px;
   width: 327px;
@@ -62,43 +70,49 @@ h1 {
   line-height: 64px;
   letter-spacing: 0.3700000047683716px;
   text-align: left;
-  color: #FF6B00;
-  font-family: 'crete round';
+  color: #ff6b00;
+  font-family: 'crete round', sans-serif;
 }
+
 #introduction-text {
   width: 327px;
   height: 27px;
-  font-family: 'Roboto';
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #FFF5E1;
-  margin: 10px 0px;
+  color: #fff5e1;
+  margin: 10px 0;
 }
+
 #brief-description {
   width: 327px;
   height: 123px;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #fff;
 }
+
 #contact {
   display: flex;
   margin-top: 10px;
 }
+
 #contact > div {
   margin: 10px;
 }
+
 #linkedIn-i-o {
   display: flex;
   flex-direction: column;
 }
+
 .linkedIn {
   display: flex;
 }
