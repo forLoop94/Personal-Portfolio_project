@@ -121,6 +121,7 @@ h1 {
   background-color: white;
   width: 375px;
   padding-top: 10px;
+  padding-bottom: 120px;
 }
 
 .title {
@@ -192,7 +193,7 @@ height: 36px;*/
   color: #091E42;
 }
 
-.btn-type-a {
+.btn-type-a, .abount-me-btn {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -213,8 +214,9 @@ height: 36px;*/
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: repeat(5, auto);
+  grid-template-rows: repeat(6, auto);
   margin: 0px 24px;
+  row-gap: 24px;
 }
 
 .grid-item {
@@ -296,4 +298,35 @@ height: 36px;*/
   bottom: 0;
   width: 100%;
   justify-content: center;
+}
+
+.about-me-section {
+  width: 375px;
+  height: 1801px;
+  background-color: #1C1A19;
+  display: flex;
+  flex-direction: column;
+  padding: 120px 24px 24px 24px;
+}
+
+.about-me-section > div {
+  
+}
+
+.about-me-section > div > p {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F5F7;
+}
+
+.about-me-title {
+  display: flex;
+  align-items: center;
+}
+
+.abount-me-btn {
+  margin-top: 24px;
 }
