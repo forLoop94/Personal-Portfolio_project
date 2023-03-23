@@ -90,6 +90,7 @@ h1 {
 }
 #contact {
   display: flex;
+  margin-top: 20px;
 }
 #contact > div {
   margin: 10px;
