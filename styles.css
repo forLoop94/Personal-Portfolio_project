@@ -67,3 +67,17 @@ line-height: 24px;
 color: #FFFFFF;
 
 }
+
+#contact {
+  display: flex;
+}
+#contact > div {
+  margin: 10px;
+}
+#linkedIn-i-o {
+  display: flex;
+  flex-direction: column;
+}
+.linkedIn {
+  display: flex;
+}
