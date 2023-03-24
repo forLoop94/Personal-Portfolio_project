@@ -38,7 +38,7 @@ header {
   line-height: 24px;
   text-align: center;
   color: #fff;
-  margin: 18px 0px 0px 24px;
+  margin: 18px 0 0 24px;
   text-decoration: none;
 }
 
@@ -122,9 +122,8 @@ h2 {
 .right-side-image {
   height: 270px;
   width: 130px;
-  border-radius: 0px;
+  border-radius: 0;
   position: absolute;
   top: 330px;
   left: 244px;
-  
 }
