@@ -348,3 +348,37 @@ h2 {
   position: absolute;
   top: 660px;
 }
+
+.list-container {
+  text-align: center;
+}
+
+.about-me-cat {
+  color: #FF6B00;;
+  list-style-type: square;
+  margin-top: 300px;
+  display: inline-block;
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: 'crete round';
+}
+
+.about-me-cat > li {
+  margin: 100px 50px;
+}
+
+
+
+
+/*.about-me-cat > li::before {
+  content: "•"; 
+  color: red;
+  display: inline-block; 
+  width: 5em;
+  margin-left: -1em;
+  border: 2px solid ;
+}*/
+
+
+
