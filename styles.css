@@ -367,12 +367,55 @@ h2 {
 }
 
 .about-me-cat {
+  list-style-type: none;
+  margin-top: 330px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.about-me-cat .language::before {
+  content: "\25C6";
   color: #ff6b00;
-  list-style-type: square;
-  margin-top: 300px;
-  display: inline-block;
-  text-align: left;
-  font-size: 2.5rem;
-  font-weight: 800;
-  font-family: 'crete round', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  display: inline-block; 
+  width: 0.7em;
+  margin-left: -1em;
+}
+
+.about-me-cat .frameworks::before {
+  content: "\25AA";
+  color: #ff6b00;
+  font-weight: bold;
+  font-size: 50px;
+  display: inline-block; 
+  width: 0.7em;
+  margin-left: -1em;
+}
+
+.about-me-cat .skills::before {
+  content: "\2022";
+  color: #ff6b00;
+  font-weight: bold;
+  font-size: 40px;
+  display: inline-block; 
+  width: 0.7em;
+  margin-left: -1em;
+}
+
+.lang-list-container {
+  margin-top: 40px;
+}
+
+.language-list {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 30px;
 }
