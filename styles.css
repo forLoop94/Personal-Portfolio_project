@@ -10,13 +10,14 @@ body {
   justify-content: center;
 }
 
-header {
-  height: 92px;
-  width: 375px;
-  background: #3c3a39;
+main {
+  margin-top: 50px;
 }
 
-nav {
+header {
+  height: 48px;
+  width: 375px;
+  background: #3c3a39;
   display: flex;
   justify-content: space-between;
 }
@@ -25,7 +26,7 @@ nav {
   width: 16px;
   top: 0;
   left: 4px;
-  margin: 68px 24px 24.36px 0;
+  margin: 26px 24px 24.36px 0;
 }
 
 .logo {
@@ -37,7 +38,8 @@ nav {
   line-height: 24px;
   text-align: center;
   color: #fff;
-  margin: 56px 0 0 24px;
+  margin: 18px 0px 0px 24px;
+  text-decoration: none;
 }
 
 .menu-bar {
@@ -59,7 +61,7 @@ nav {
   background: #1c1a19;
 }
 
-h1 {
+h2 {
   height: 124px;
   width: 327px;
   left: 24px;
@@ -101,9 +103,10 @@ h1 {
 #contact {
   display: flex;
   margin-top: 10px;
+  list-style-type: none;
 }
 
-#contact > div {
+#contact > li {
   margin: 10px;
 }
 
