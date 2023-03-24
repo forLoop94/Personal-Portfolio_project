@@ -176,9 +176,10 @@ h2 {
 
 #competencies {
   display: flex;
+  list-style-type: none;
 }
 
-#competencies > div {
+#competencies > li {
   font-family: Inter, sans-serif;
   margin-right: 12px;
   padding: 6px;
@@ -261,9 +262,10 @@ h2 {
 
 .competencies {
   display: flex;
+  list-style-type: none;
 }
 
-.competencies > div {
+.competencies > li {
   font-family: Inter, sans-serif;
   margin-right: 12px;
   padding: 6px;
