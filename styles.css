@@ -154,9 +154,6 @@ h2 {
 }
 
 #bold-text {
- /* width: 327px;
-height: 36px;*/
-
   font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
@@ -302,16 +299,13 @@ height: 36px;*/
 }
 
 .about-me-section {
+  position: relative;
   width: 375px;
   height: 1801px;
   background-color: #1C1A19;
   display: flex;
   flex-direction: column;
   padding: 120px 24px 24px 24px;
-}
-
-.about-me-section > div {
-  
 }
 
 .about-me-section > div > p {
@@ -341,3 +335,14 @@ height: 36px;*/
   left: 244px;
 }
 
+.right-side-image-b {
+  position: absolute;
+  width: 160px;
+  left: 215px;
+  top: 400px;
+}
+
+.hor-line {
+  position: absolute;
+  top: 660px;
+}
