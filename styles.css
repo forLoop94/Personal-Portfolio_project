@@ -57,7 +57,6 @@ nav {
   width: 375px;
   padding: 120px 24px 120px 24px;
   background: #1c1a19;
-  border: 5px solid blue;
 }
 
 h1 {
@@ -121,9 +120,8 @@ h1 {
   height: 270px;
   width: 130px;
   border-radius: 0px;
-  border: 2px solid red;
   position: absolute;
   top: 330px;
-  left: 238px;
+  left: 244px;
   
 }
