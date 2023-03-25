@@ -11,11 +11,11 @@ body {
 }
 
 main {
-  margin-top: 20%;
+  margin-top: 0%;
 }
 
 header {
-  position: sticky;
+  position: fixed;
   z-index: 1;
   top: 0;
   height: 48px;
@@ -123,7 +123,7 @@ h2 {
 }
 
 .about-me-cat > li {
-  margin: 100px 50px;
+  margin: 20px 10px;
 }
 
 #contact > li {
@@ -407,15 +407,15 @@ h2 {
   margin-left: -1em;
 }
 
-.lang-list-container {
-  margin-top: 40px;
+.category-list-container {
+  margin-top: 30px;
 }
 
-.language-list {
+.category-list {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 24px;
   text-align: center;
   color: #fff;
-  margin-top: 30px;
+  margin-top: 10px;
 }
