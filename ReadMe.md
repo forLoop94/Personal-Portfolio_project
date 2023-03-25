@@ -48,9 +48,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **flexbox**
-- **.gitignore file**
-- ****
+- **Use Linter**
+- **Use professional documentation**
+- **Use HTML and CSS**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -69,7 +69,8 @@ In order to run this project you need: A code editor(e.g VS code)
 
 ### Setup
 
-Clone this repository to your desired folder:(e.g git clone git@github.com:myaccount/my-project.git)
+Clone this repository to your desired folder:(cd Personal-Portfolio-project 
+git clone git@github.com:forLoop94/Personal-Portfolio_project.git)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -82,15 +83,8 @@ Install this project with:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command: To run the project, open the index.html file with a browser or use a live server with your favorite code editor
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
@@ -121,9 +115,11 @@ Example:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Author1**
+👤 **Charles Andrews**
 
-- Charles Andrews
+- GitHub: [@githubhandle](https://github.com/forLoop94)
+- Twitter: [@twitterhandle](https://twitter.com/_AndrewsCharles)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/andrewscharles94)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -186,8 +182,6 @@ I would like to thank the Microverse organization and my coding partners(Mani an
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
