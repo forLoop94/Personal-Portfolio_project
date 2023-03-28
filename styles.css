@@ -419,3 +419,31 @@ h2 {
   color: #fff;
   margin-top: 10px;
 }
+ /* added by habtamualemayehu16@gmail.com  */
+ .headline-item {
+  margin: 0 8px 0 8px;
+}
+.twitter {
+  width: 21px;
+  height: 20px;
+}
+
+.linkedin {
+  width: 21px;
+  height: 20px;
+}
+
+.medium {
+  width: 21px;
+  height: 16px;
+}
+
+.github {
+  width: 19px;
+  height: 20px;
+}
+
+.angellist {
+  width: 15px;
+  height: 20px;
+}
