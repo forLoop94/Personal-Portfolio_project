@@ -224,7 +224,7 @@ h2 {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  background: #ff6b00;
+  background: #F55800;
   margin-top: 12px;
   border: none;
   outline: none;
@@ -240,6 +240,10 @@ h2 {
   background: #fff5e1;
   color: #f55800;
   border: 2px solid #f55800;
+}
+
+.btn-type-a:active, .about-me-btn:active{
+  background-color: #E05304;
 }
 
 .grid-container {
@@ -306,7 +310,7 @@ h2 {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  background: #ff6b00;
+  background-color: #F55800;
   margin-top: 12px;
   border: none;
   outline: none;
@@ -320,6 +324,10 @@ h2 {
   background: #fff5e1;
   color: #f55800;
   border: 2px solid #f55800;
+}
+
+.btn-type-b:active {
+  background-color: #E05304;
 }
 
 .about-me-section {
