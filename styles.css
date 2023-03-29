@@ -232,6 +232,7 @@ h2 {
 
 .about-me-btn {
   margin-top: 24px;
+  margin-bottom: 60px;
 }
 
 .btn-type-a:hover,
@@ -320,7 +321,7 @@ h2 {
 .about-me-section {
   position: relative;
   width: 375px;
-  height: 1801px;
+  height: 1870px;
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
@@ -420,12 +421,11 @@ h2 {
   margin-top: 10px;
 }
 
-/* Added by Sandeep Ghosh mailsg0912@gmail.com*/
+/* Added by Sandeep Ghosh mailsg0912@gmail.com */
 .reg-form {
   width: 375px;
   height: 830px;
   background-color: white;
-  
 }
 
 form {
@@ -439,34 +439,30 @@ form {
 
 .form-body > div {
   margin-bottom: 170px;
-
 }
 
 .text-field {
   display: block;
-  margin-bottom: 10px;
-  margin: 10px 0px 0px 10px;
+  margin: 10px 10px;
   padding: 14px;
   border: none;
-  border-bottom: 2px solid #DBD8D7;
-  outline: none;font-family: 'Inter';
+  border-bottom: 2px solid #dbd8d7;
+  outline: none;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   width: 90%;
-  display: flex;
   align-items: center;
   justify-content: center;
-  
   color: #979493;
-
 }
 
 #bio {
   border-bottom: none;
-  background-color: #FBF8F7;
-  padding: 0px;
+  background-color: #fbf8f7;
+  padding: 0;
   padding-left: 14px;
   margin-top: 20px;
 }
@@ -486,36 +482,31 @@ form {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
-
+  color: #172b4d;
 }
 
-.form-btn{
+.form-btn {
   display: flex;
   justify-content: center;
-}
-
-.about-me-btn {
-  margin-bottom: 60px;
 }
 
 .form-contacts {
   display: flex;
   justify-content: center;
-  border-top: 1px solid #DFE1E6;
+  border-top: 1px solid #dfe1e6;
   background-color: white;
 }
 
 .footer-divider {
   display: flex;
   justify-content: center;
-  padding: 30px 0px 10px 0px;
+  padding: 30px 0 10px 0;
   background-color: white;
 }
 
 .footer-divider > div {
   width: 134px;
   height: 5px;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
-  }
+}
