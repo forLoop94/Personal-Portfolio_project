@@ -423,6 +423,7 @@ h2 {
 /* Added by Sandeep Ghosh mailsg0912@gmail.com*/
 .reg-form {
   width: 375px;
+  height: 830px;
   background-color: white;
   
 }
@@ -508,7 +509,8 @@ form {
 .footer-divider {
   display: flex;
   justify-content: center;
-  padding: 40px 0px 10px 0px;
+  padding: 30px 0px 10px 0px;
+  background-color: white;
 }
 
 .footer-divider > div {
