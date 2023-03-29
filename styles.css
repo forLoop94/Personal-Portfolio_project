@@ -435,3 +435,37 @@ form {
   display: flex;
   flex-direction: column;
 }
+
+.form-body > div {
+  margin-bottom: 170px;
+
+}
+
+.text-field {
+  display: block;
+  margin-bottom: 10px;
+  margin: 10px 0px 0px 10px;
+  padding: 14px;
+  border: none;
+  border-bottom: 2px solid #DBD8D7;
+  outline: none;font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  color: #979493;
+
+}
+
+#bio {
+  border-bottom: none;
+  background-color: #FBF8F7;
+  padding: 0px;
+  padding-left: 14px;
+  margin-top: 20px;
+}
