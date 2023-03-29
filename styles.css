@@ -237,9 +237,9 @@ h2 {
 
 .btn-type-a:hover,
 .about-me-btn:hover {
-  background: #FFF5E1;
-  color: #F55800;
-  border: 2px solid #F55800;
+  background: #fff5e1;
+  color: #f55800;
+  border: 2px solid #f55800;
 }
 
 .grid-container {
@@ -317,9 +317,9 @@ h2 {
 }
 
 .btn-type-b:hover {
-  background: #FFF5E1;
-  color: #F55800;
-  border: 2px solid #F55800;
+  background: #fff5e1;
+  color: #f55800;
+  border: 2px solid #f55800;
 }
 
 .about-me-section {
@@ -330,6 +330,19 @@ h2 {
   display: flex;
   flex-direction: column;
   padding: 120px 24px 24px 24px;
+}
+
+.header-text > p {
+  width: 357px;
+  height: 216px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-indent: 3%;
 }
 
 .about-me-section > div > p {
@@ -433,13 +446,12 @@ h2 {
 }
 
 form {
-  margin: 0px 24px;
+  margin: 0 24px;
 }
 
 .form-body {
   display: flex;
   flex-direction: column;
-  
 }
 
 .form-body > div {
@@ -475,20 +487,7 @@ form {
 .header-text {
   display: flex;
   justify-content: center;
-  margin: 70px 24px 0px 24px;
-}
-
-.header-text > p{
-  width: 357px;
-  height: 216px;
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d;
-  text-indent: 3%;
+  margin: 70px 24px 0 24px;
 }
 
 .form-btn {
@@ -501,7 +500,7 @@ form {
   justify-content: center;
   border-top: 1px solid #dfe1e6;
   background-color: white;
-  padding: 10px 0px 15px 0px;
+  padding: 10px 0 15px 0;
 }
 
 .footer-divider {
