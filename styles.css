@@ -469,3 +469,27 @@ form {
   padding-left: 14px;
   margin-top: 20px;
 }
+
+.header-text {
+  display: flex;
+  justify-content: center;
+}
+
+.header-text > h3 {
+  width: 327px;
+  height: 216px;
+  padding: 69px 24px 119px 24px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+
+}
+
+.form-btn{
+  display: flex;
+  justify-content: center;
+}
