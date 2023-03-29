@@ -237,7 +237,9 @@ h2 {
 
 .btn-type-a:hover,
 .about-me-btn:hover {
-  background: #cd7232;
+  background: #FFF5E1;
+  color: #F55800;
+  border: 2px solid #F55800;
 }
 
 .grid-container {
@@ -315,7 +317,9 @@ h2 {
 }
 
 .btn-type-b:hover {
-  background: #cd7232;
+  background: #FFF5E1;
+  color: #F55800;
+  border: 2px solid #F55800;
 }
 
 .about-me-section {
@@ -424,21 +428,22 @@ h2 {
 /* Added by Sandeep Ghosh mailsg0912@gmail.com */
 .reg-form {
   width: 375px;
-  height: 830px;
+  height: 800px;
   background-color: white;
 }
 
 form {
-  margin: 24px;
+  margin: 0px 24px;
 }
 
 .form-body {
   display: flex;
   flex-direction: column;
+  
 }
 
 .form-body > div {
-  margin-bottom: 170px;
+  margin-bottom: 89px;
 }
 
 .text-field {
@@ -470,12 +475,12 @@ form {
 .header-text {
   display: flex;
   justify-content: center;
+  margin: 70px 24px 0px 24px;
 }
 
-.header-text > h3 {
-  width: 327px;
+.header-text > p{
+  width: 357px;
   height: 216px;
-  padding: 69px 24px 119px 24px;
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -483,6 +488,7 @@ form {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  text-indent: 3%;
 }
 
 .form-btn {
@@ -495,12 +501,13 @@ form {
   justify-content: center;
   border-top: 1px solid #dfe1e6;
   background-color: white;
+  padding: 10px 0px 15px 0px;
 }
 
 .footer-divider {
   display: flex;
   justify-content: center;
-  padding: 30px 0 10px 0;
+  padding: 20px;
   background-color: white;
 }
 
