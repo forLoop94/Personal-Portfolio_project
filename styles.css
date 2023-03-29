@@ -419,3 +419,19 @@ h2 {
   color: #fff;
   margin-top: 10px;
 }
+
+/* Added by Sandeep Ghosh mailsg0912@gmail.com*/
+.reg-form {
+  width: 375px;
+  background-color: white;
+  
+}
+
+form {
+  margin: 24px;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+}
