@@ -212,7 +212,7 @@ h2 {
 }
 
 .btn-type-a,
-.abount-me-btn {
+.about-me-btn {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -230,12 +230,12 @@ h2 {
   outline: none;
 }
 
-.abount-me-btn {
+.about-me-btn {
   margin-top: 24px;
 }
 
 .btn-type-a:hover,
-.abount-me-btn:hover {
+.about-me-btn:hover {
   background: #cd7232;
 }
 
