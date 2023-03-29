@@ -493,3 +493,27 @@ form {
   display: flex;
   justify-content: center;
 }
+
+.about-me-btn {
+  margin-bottom: 60px;
+}
+
+.form-contacts {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #DFE1E6;
+  background-color: white;
+}
+
+.footer-divider {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px 10px 0px;
+}
+
+.footer-divider > div {
+  width: 134px;
+  height: 5px;
+  background: #0D151E;
+  border-radius: 10px;
+  }
