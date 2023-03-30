@@ -714,4 +714,52 @@ form {
     font-size: 20px;
   }
 
+  .about-me-section {
+    width: 1440px;
+    height: 1195px;
+    padding: 130px 0 0 142px;
+  }
+
+  .about-me-section > div > p {
+    width: 566px;
+    font-size: 20px;
+  }
+
+  .right-side-image-b {
+    display: none;
+  }
+
+  .right-side-image-b-desktop {
+    position: absolute;
+    right: 0;
+    display: flex;
+    height: 352.3808288574219px;
+    width: 600px;
+  }
+
+  hr {
+    height: 3px;
+    margin: 120px 142px 100px 14px;
+    border-bottom: 0 solid rgb(154, 148, 148);
+    display: flex;
+  }
+
+  .hor-line {
+    display: none;
+  }
+
+  .about-me-title {
+    font-size: 100px;
+  }
+
+  .about-me-cat {
+    display: flex;
+    margin-top: 0;
+    justify-content: space-between;
+  }
+
+  .about-me-cat > li {
+    margin-right: 100px;
+  }
+
 }
