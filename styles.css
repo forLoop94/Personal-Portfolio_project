@@ -579,4 +579,82 @@ form {
     width: 20px;
     height: 20px;
   }
+  
+  .desktop-healine-image {
+    height: 769.2709142794312px;
+    width: 1003.1292453649103px;
+    position: absolute;
+    top: 48px;
+    right: 0;
+    display: flex;
+  }
+
+  h2 {
+    width: 566px;
+    height: 160px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  #introduction-text {
+    width: 566px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  #brief-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  #contact {
+    position: absolute;
+    flex-direction: column;
+    top: 331px;
+    left: 36px;
+  }
+
+  #works-section {
+    background-color: white;
+    width: 1440px;
+    padding-top: 10px;
+    padding-bottom: 120px;
+  }
+
+  .title-section {
+    display: flex;
+  }
+
+  .works-title-block {
+    margin-top: 100px;
+  }
+
+  .title {
+    margin: 135px 0 114px 153.5px;
+    display: inline;
+    align-items: center;
+  }
+
+  .crossline {
+    display: none;
+  }
+
+  .divider-desktop {
+    float: right;
+    margin-top: 25px;
+  }
+
+  .desktop-divider {
+    display: inline;
+    align-items: center;
+    margin-right: 153.5px;
+    margin-bottom: 56px;
+  }
 }
