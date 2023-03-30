@@ -579,7 +579,7 @@ form {
     width: 20px;
     height: 20px;
   }
-  
+
   .desktop-healine-image {
     height: 769.2709142794312px;
     width: 1003.1292453649103px;
@@ -657,4 +657,61 @@ form {
     margin-right: 153.5px;
     margin-bottom: 56px;
   }
+
+  .works-card {
+    display: none;
+  }
+
+  .works-card-desktop {
+    display: flex;
+    padding: 114px 143px 24px 141px;
+  }
+
+  .side-text > h3,
+  p,
+  ul,
+  button {
+    margin-bottom: 30px;
+  }
+
+  .works-card-desktop > div {
+    margin-right: 24px;
+  }
+
+  .grid-container-desktop {
+    display: grid;
+    grid-template-columns: repeat(3, 369px);
+    grid-template-rows: repeat(2, auto);
+    margin-left: 141.5px;
+    column-gap: 24px;
+  }
+
+  .btn-type-b {
+    width: 369px;
+    position: relative;
+    top: 93px;
+    right: 10px;
+  }
+
+  .grid-container {
+    display: none;
+  }
+
+  .works-description {
+    font-size: 20px;
+  }
+
+  .image-text {
+    position: absolute;
+    top: 130px;
+  }
+
+  .competencies {
+    margin-top: 20px;
+  }
+
+  #works-description {
+    font-size: 20px;
+  }
+
 }
