@@ -8,6 +8,7 @@ body {
   background: #e5e5e5;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 main {
@@ -400,6 +401,10 @@ h2 {
   top: 400px;
 }
 
+.right-side-image-b-desktop {
+  display: none;
+}
+
 .hor-line {
   position: absolute;
   top: 660px;
@@ -461,6 +466,10 @@ h2 {
   text-align: center;
   color: #fff;
   margin-top: 10px;
+}
+
+hr {
+  display: none;
 }
 
 /* Added by Sandeep Ghosh mailsg0912@gmail.com */
@@ -542,13 +551,28 @@ form {
   border-radius: 10px;
 }
 
+#footer-contact {
+  display: flex;
+  margin-top: 10px;
+  list-style-type: none;
+  justify-content: center;
+}  
+
+#footer-contact > li {
+  margin-right: 10%;
+}
+
 @media screen and (min-width: 768px) {
   .right-side-image {
     display: none;
   }
 
+  main {
+    width: 100%;
+  }
+
   header {
-    width: 1440px;
+    width: 100%;
     height: 72px;
   }
 
@@ -557,8 +581,8 @@ form {
   }
 
   #headline-section {
-    width: 1440px;
-    height: 870px;
+    width: 100%;
+    height: 17%;
     position: relative;
     padding: 264px 143px;
   }
@@ -598,8 +622,8 @@ form {
   }
 
   .desktop-healine-image {
-    height: 769.2709142794312px;
-    width: 1003.1292453649103px;
+    height: 80%;
+    width: 50%;
     position: absolute;
     top: 48px;
     right: 0;
@@ -640,7 +664,7 @@ form {
 
   #works-section {
     background-color: white;
-    width: 1440px;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 120px;
   }
@@ -671,8 +695,9 @@ form {
   .desktop-divider {
     display: inline;
     align-items: center;
-    margin-right: 153.5px;
     margin-bottom: 56px;
+    float: right;
+    padding-right: 10%;
   }
 
   .works-card {
@@ -732,13 +757,13 @@ form {
   }
 
   .about-me-section {
-    width: 1440px;
-    height: 1195px;
-    padding: 130px 0 0 142px;
+    width: 100%;
+    height: 26.8%;
+    padding: 130px 0px 0px 142px;
   }
 
   .about-me-section > div > p {
-    width: 566px;
+    width: 40%;
     font-size: 20px;
   }
 
@@ -750,8 +775,8 @@ form {
     position: absolute;
     right: 0;
     display: flex;
-    height: 352.3808288574219px;
-    width: 600px;
+    height: 30%;
+    width: 35%;
   }
 
   hr {
@@ -771,27 +796,28 @@ form {
 
   .about-me-cat {
     display: flex;
-    margin-top: 0;
+    margin-top: 0%;
     justify-content: space-between;
   }
 
   .about-me-cat > li {
-    margin-right: 100px;
+    margin-right: 25%;
   }
 
   .reg-form {
     width: 100%;
     height: 600px;
-    padding: 60px 143px 0px 135px;
+  
   }
   
   .form-body {
     flex-direction: row;
+    border: 2px solid red;
   }
 
-  .header-text > h3 {
+  .header-text > p {
     font-size: 40px;
-    width: 455px;
+    width: 40%;
     line-height: 55px;
     text-align: left;
   }
@@ -804,7 +830,7 @@ form {
 
   form {
     width: 60%;
-    padding-top: 30px;
+    padding-top: 5%;
   }
 
   .text-field {
