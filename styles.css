@@ -762,4 +762,43 @@ form {
     margin-right: 100px;
   }
 
+  .reg-form {
+    width: 100%;
+    height: 600px;
+    padding: 60px 143px 0px 135px;
+  }
+  
+  .form-body {
+    flex-direction: row;
+  }
+
+  .header-text > h3 {
+    font-size: 40px;
+    width: 455px;
+    line-height: 55px;
+    text-align: left;
+  }
+
+  .form-btn {
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+
+  form {
+    width: 60%;
+    padding-top: 30px;
+  }
+
+  .text-field {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .form-contacts {
+    padding: 10px 0px;
+  }
 }
