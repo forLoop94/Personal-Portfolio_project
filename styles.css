@@ -525,3 +525,58 @@ form {
   background: #0d151e;
   border-radius: 10px;
 }
+
+@media screen and (min-width: 768px) {
+  .right-side-image {
+    display: none;
+  }
+
+  header {
+    width: 1440px;
+    height: 72px;
+  }
+
+  .logo {
+    margin: 26px 0 26px 154px;
+  }
+
+  #headline-section {
+    width: 1440px;
+    height: 870px;
+    position: relative;
+    padding: 264px 143px;
+  }
+
+  #menu-btn {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop-nav-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 143px;
+    list-style-type: none;
+  }
+
+  .desktop-nav-content > li > a {
+    margin-right: 32px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .mail-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
