@@ -56,6 +56,10 @@ header {
   background-color: #acb7c3;
 }
 
+.desktop-nav {
+  display: none;
+}
+
 #headline-section {
   position: relative;
   height: 590px;
@@ -139,6 +143,10 @@ h2 {
   display: flex;
 }
 
+.desktop-healine-image {
+  display: none;
+}
+
 #works-section {
   background-color: white;
   width: 375px;
@@ -160,6 +168,10 @@ h2 {
   color: #1c1a19;
 }
 
+ .divider-desktop {
+  display: none;
+}
+
 .crossline {
   width: 327px;
   height: 0;
@@ -171,6 +183,10 @@ h2 {
 
 .works-card {
   margin: 0 24px;
+}
+
+.works-card-desktop, .grid-container-desktop {
+  display: none;
 }
 
 #bold-text {
@@ -562,6 +578,7 @@ form {
     text-align: center;
     padding-right: 143px;
     list-style-type: none;
+    margin-top: 35px;
   }
 
   .desktop-nav-content > li > a {
@@ -801,4 +818,23 @@ form {
   .form-contacts {
     padding: 10px 0px;
   }
+
+  .footer-divider {
+    display: none;
+  }
+
+  #footer-contact {
+    display: flex;
+    margin-top: 10px;
+    list-style-type: none;
+  }
+
+  #footer-contact > li {
+    margin-right: 10px;
+  }
+
+  .divider-desktop {
+    display: flex;
+  }
+
 }
