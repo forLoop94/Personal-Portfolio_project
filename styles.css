@@ -212,7 +212,7 @@ h2 {
 }
 
 .btn-type-a,
-.abount-me-btn {
+.about-me-btn {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -224,19 +224,27 @@ h2 {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  background: #ff6b00;
+  background: #f55800;
   margin-top: 12px;
   border: none;
   outline: none;
 }
 
-.abount-me-btn {
+.about-me-btn {
   margin-top: 24px;
+  margin-bottom: 60px;
 }
 
 .btn-type-a:hover,
-.abount-me-btn:hover {
-  background: #cd7232;
+.about-me-btn:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 2px solid #f55800;
+}
+
+.btn-type-a:active,
+.about-me-btn:active {
+  background-color: #e05304;
 }
 
 .grid-container {
@@ -303,7 +311,7 @@ h2 {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  background: #ff6b00;
+  background-color: #f55800;
   margin-top: 12px;
   border: none;
   outline: none;
@@ -314,17 +322,36 @@ h2 {
 }
 
 .btn-type-b:hover {
-  background: #cd7232;
+  background: #fff5e1;
+  color: #f55800;
+  border: 2px solid #f55800;
+}
+
+.btn-type-b:active {
+  background-color: #e05304;
 }
 
 .about-me-section {
   position: relative;
   width: 375px;
-  height: 1801px;
+  height: 1810px;
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
   padding: 120px 24px 24px 24px;
+}
+
+.header-text > p {
+  width: 357px;
+  height: 216px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-indent: 3%;
 }
 
 .about-me-section > div > p {
@@ -368,7 +395,7 @@ h2 {
 
 .about-me-cat {
   list-style-type: none;
-  margin-top: 330px;
+  margin-top: 250px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -418,4 +445,83 @@ h2 {
   text-align: center;
   color: #fff;
   margin-top: 10px;
+}
+
+/* Added by Sandeep Ghosh mailsg0912@gmail.com */
+.reg-form {
+  width: 375px;
+  height: 800px;
+  background-color: white;
+}
+
+form {
+  margin: 0 24px;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-body > div {
+  margin-bottom: 89px;
+}
+
+.text-field {
+  display: block;
+  margin: 10px 10px;
+  padding: 14px;
+  border: none;
+  border-bottom: 2px solid #dbd8d7;
+  outline: none;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  color: #979493;
+}
+
+#bio {
+  border-bottom: none;
+  background-color: #fbf8f7;
+  padding: 0;
+  padding-left: 14px;
+  margin-top: 20px;
+}
+
+.header-text {
+  display: flex;
+  justify-content: center;
+  margin: 70px 24px 0 24px;
+}
+
+.form-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.form-contacts {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #dfe1e6;
+  background-color: white;
+  padding: 10px 0 15px 0;
+}
+
+.footer-divider {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.footer-divider > div {
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
 }
