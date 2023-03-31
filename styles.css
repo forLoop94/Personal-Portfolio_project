@@ -569,6 +569,7 @@ form {
 
   main {
     width: 100%;
+    height: 100%;
   }
 
   header {
@@ -582,7 +583,7 @@ form {
 
   #headline-section {
     width: 100%;
-    height: 17%;
+    height: 19%;
     position: relative;
     padding: 264px 143px;
   }
@@ -622,7 +623,7 @@ form {
   }
 
   .desktop-healine-image {
-    height: 80%;
+    height: 90%;
     width: 50%;
     position: absolute;
     top: 48px;
@@ -631,27 +632,26 @@ form {
   }
 
   h2 {
-    width: 566px;
-    height: 160px;
+    width: 50%;
+    height: 50%;
     font-weight: 400;
-    font-size: 72px;
+    font-size: 4rem;
     line-height: 82px;
   }
 
   #introduction-text {
-    width: 566px;
-    height: 24px;
+    width: 50%;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
     display: flex;
-    align-items: center;
-    margin: 20px 0;
+    align-items: flex-end;
   }
 
   #brief-description {
+    width: 50%;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.2rem;
     line-height: 32px;
   }
 
@@ -688,6 +688,7 @@ form {
   }
 
   .divider-desktop {
+    display: block;
     float: right;
     margin-top: 25px;
   }
@@ -696,7 +697,6 @@ form {
     display: inline;
     align-items: center;
     margin-bottom: 56px;
-    float: right;
     padding-right: 10%;
   }
 
@@ -722,7 +722,7 @@ form {
 
   .grid-container-desktop {
     display: grid;
-    grid-template-columns: repeat(3, 369px);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(2, auto);
     margin-left: 141.5px;
     column-gap: 24px;
@@ -758,13 +758,15 @@ form {
 
   .about-me-section {
     width: 100%;
-    height: 26.8%;
-    padding: 130px 0px 0px 142px;
+    height: 27%;
+    padding: 8rem 8rem 3rem 8rem;
   }
 
   .about-me-section > div > p {
-    width: 40%;
-    font-size: 20px;
+    width: 45%;
+    font-size: 1.2rem;
+    line-height: 32px;
+    color: #F4F5F7;
   }
 
   .right-side-image-b {
@@ -773,17 +775,18 @@ form {
 
   .right-side-image-b-desktop {
     position: absolute;
-    right: 0;
     display: flex;
     height: 30%;
     width: 35%;
+    top: 12%;
+    left: 65%;
   }
 
-  hr {
-    height: 3px;
-    margin: 120px 142px 100px 14px;
-    border-bottom: 0 solid rgb(154, 148, 148);
-    display: flex;
+  .thematic-break {
+    width: 100%;
+    height: 1px;
+    margin: 4rem 0rem;
+    border-bottom: 2px solid rgb(154, 148, 148);
   }
 
   .hor-line {
@@ -791,76 +794,62 @@ form {
   }
 
   .about-me-title {
-    font-size: 100px;
+    font-size: 4rem;
+  }
+
+  .list-container {
+    width: 100%;
   }
 
   .about-me-cat {
+    margin-top: 4rem;
     display: flex;
-    margin-top: 0%;
     justify-content: space-between;
   }
 
-  .about-me-cat > li {
-    margin-right: 25%;
-  }
-
   .reg-form {
+    display: none;
+  }
+
+  .form-desktop {
+    display: flex;
     width: 100%;
-    height: 600px;
-  
-  }
-  
-  .form-body {
-    flex-direction: row;
-    border: 2px solid red;
+    height: 13%;
+    padding: 8%;
+    background-color: white;
   }
 
-  .header-text > p {
-    font-size: 40px;
-    width: 40%;
-    line-height: 55px;
-    text-align: left;
-  }
-
-  .form-btn {
-    justify-content: flex-start;
-    margin-left: 10px;
-    margin-bottom: 50px;
+  .form-text {
+    padding: 0.8rem;
+    font-size: 2.5rem;
+    width: 50%;
+    line-height: 2.9rem;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
   }
 
   form {
-    width: 60%;
-    padding-top: 5%;
+    width: 80%;
+    padding-left: 1.7rem;
   }
 
   .text-field {
     width: 100%;
   }
 
-  footer {
-    width: 100%;
-  }
-
-  .form-contacts {
-    padding: 10px 0px;
+  .form-btn {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0.8rem;
   }
 
   .footer-divider {
     display: none;
   }
 
-  #footer-contact {
-    display: flex;
-    margin-top: 10px;
-    list-style-type: none;
+  .form-contacts {
+    padding-top: 1.5rem;
   }
-
-  #footer-contact > li {
-    margin-right: 10px;
-  }
-
-  .divider-desktop {
-    display: flex;
-  }
-
 }
+
+ 

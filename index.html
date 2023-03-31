@@ -307,9 +307,7 @@
       </div>
     </section>
     <section class="about-me-section">
-      <div>
-        <h2 class="about-me-title">About me</h2>
-      </div>
+      <h2 class="about-me-title">About me</h2>
       <div>
         <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my
           work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
@@ -318,8 +316,8 @@
       <div><button type="button" class="about-me-btn">Get my resume</button></div>
       <img class="right-side-image-b" src="images/illustration-about-me-mobile.png" alt="right-design about-me section">
       <img class="right-side-image-b-desktop" src="images/about-image-desktop.png" alt="desktop image">
-      <img class="hor-line" src="images/Devider.png" alt="horizental line">
-      <hr class="thematic break">
+      <!--<img class="hor-line" src="images/Devider.png" alt="horizental line">-->
+      <div class="thematic-break"></div>
       <div class="list-container">
         <ul class="about-me-cat">
           <li class="language">
@@ -372,6 +370,17 @@
           </div>
         </form>
       </div>
+    </section>
+    <section class="form-desktop">
+      <p class="form-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+      <form class="main-form" action="https://formspree.io/f/xknaqwwd" method="post">
+        <input type="text" class="text-field" placeholder="Full name" min="1" max="30" name="Name" required>
+        <input type="email" class="text-field" placeholder="Email address" name="Email address" required>
+        <textarea name="Bio" id="bio" class="text-field" cols="30" rows="5" minlength="1" maxlength="500" placeholder="Write me something" required></textarea>
+        <div class="form-btn">
+            <button type="submit" class="about-me-btn">Get in touch</button>
+        </div>
+      </form>
     </section>
     <footer class="form-contacts">
       <ul id="footer-contact">
