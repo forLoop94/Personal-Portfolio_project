@@ -169,7 +169,7 @@ h2 {
   color: #1c1a19;
 }
 
- .divider-desktop {
+.divider-desktop {
   display: none;
 }
 
@@ -186,7 +186,8 @@ h2 {
   margin: 0 24px;
 }
 
-.works-card-desktop, .grid-container-desktop {
+.works-card-desktop,
+.grid-container-desktop {
   display: none;
 }
 
@@ -556,10 +557,14 @@ form {
   margin-top: 10px;
   list-style-type: none;
   justify-content: center;
-}  
+}
 
 #footer-contact > li {
   margin-right: 10%;
+}
+
+.form-desktop {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -766,7 +771,7 @@ form {
     width: 45%;
     font-size: 1.2rem;
     line-height: 32px;
-    color: #F4F5F7;
+    color: #f4f5f7;
   }
 
   .right-side-image-b {
@@ -785,7 +790,7 @@ form {
   .thematic-break {
     width: 100%;
     height: 1px;
-    margin: 4rem 0rem;
+    margin: 4rem 0;
     border-bottom: 2px solid rgb(154, 148, 148);
   }
 
@@ -851,5 +856,3 @@ form {
     padding-top: 1.5rem;
   }
 }
-
- 
