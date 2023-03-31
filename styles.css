@@ -301,7 +301,8 @@ h2 {
   list-style-type: none;
 }
 
-.project-cards, .project-cards-mobile {
+.project-cards,
+.project-cards-mobile {
   width: 100%;
 }
 
@@ -545,7 +546,14 @@ form {
   margin-right: 10%;
 }
 
-.project-cards, .form-desktop, .right-side-image-b-desktop, .works-card-desktop, .grid-container-desktop, .divider-desktop, .desktop-healine-image, .desktop-nav{
+.project-cards,
+.form-desktop,
+.right-side-image-b-desktop,
+.works-card-desktop,
+.grid-container-desktop,
+.divider-desktop,
+.desktop-healine-image,
+.desktop-nav {
   display: none;
 }
 
@@ -658,7 +666,7 @@ form {
   .title {
     display: inline;
     align-items: center;
-    margin: 0px;
+    margin: 0;
   }
 
   .divider-desktop {
@@ -719,7 +727,7 @@ form {
   .grid-container:hover {
     cursor: pointer;
   }
-  
+
   .about-me-section {
     width: 100%;
     height: 27%;
@@ -753,7 +761,8 @@ form {
     font-size: 4rem;
   }
 
-  .list-container, .text-field{
+  .list-container,
+  .text-field {
     width: 100%;
   }
 
@@ -795,7 +804,15 @@ form {
     padding-top: 1.5rem;
   }
 
-  .project-cards-mobile, .crossline, .footer-divider, .reg-form, .hor-line, .right-side-image-b, .works-card, .right-side-image, #menu-btn{
+  .project-cards-mobile,
+  .crossline,
+  .footer-divider,
+  .reg-form,
+  .hor-line,
+  .right-side-image-b,
+  .works-card,
+  .right-side-image,
+  #menu-btn {
     display: none;
   }
 
