@@ -57,10 +57,6 @@ header {
   background-color: #acb7c3;
 }
 
-.desktop-nav {
-  display: none;
-}
-
 #headline-section {
   position: relative;
   height: 590px;
@@ -144,10 +140,6 @@ h2 {
   display: flex;
 }
 
-.desktop-healine-image {
-  display: none;
-}
-
 #works-section {
   background-color: white;
   width: 375px;
@@ -169,10 +161,6 @@ h2 {
   color: #1c1a19;
 }
 
-.divider-desktop {
-  display: none;
-}
-
 .crossline {
   width: 327px;
   height: 0;
@@ -184,11 +172,6 @@ h2 {
 
 .works-card {
   margin: 0 24px;
-}
-
-.works-card-desktop,
-.grid-container-desktop {
-  display: none;
 }
 
 #bold-text {
@@ -258,6 +241,7 @@ h2 {
   background: #fff5e1;
   color: #f55800;
   border: 2px solid #f55800;
+  cursor: pointer;
 }
 
 .btn-type-a:active,
@@ -269,7 +253,6 @@ h2 {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(6, auto);
-  margin: 0 24px;
   row-gap: 24px;
 }
 
@@ -297,7 +280,7 @@ h2 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 44px;
   display: flex;
   align-items: center;
@@ -308,7 +291,7 @@ h2 {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   color: #fff;
 }
@@ -316,6 +299,10 @@ h2 {
 .competencies {
   display: flex;
   list-style-type: none;
+}
+
+.project-cards, .project-cards-mobile {
+  width: 100%;
 }
 
 .btn-type-b {
@@ -328,7 +315,6 @@ h2 {
   display: flex;
   align-items: center;
   padding: 12px;
-  gap: 10px;
   background-color: #f55800;
   margin-top: 12px;
   border: none;
@@ -343,6 +329,7 @@ h2 {
   background: #fff5e1;
   color: #f55800;
   border: 2px solid #f55800;
+  cursor: pointer;
 }
 
 .btn-type-b:active {
@@ -400,10 +387,6 @@ h2 {
   width: 160px;
   left: 215px;
   top: 400px;
-}
-
-.right-side-image-b-desktop {
-  display: none;
 }
 
 .hor-line {
@@ -473,7 +456,6 @@ hr {
   display: none;
 }
 
-/* Added by Sandeep Ghosh mailsg0912@gmail.com */
 .reg-form {
   width: 375px;
   height: 800px;
@@ -563,15 +545,11 @@ form {
   margin-right: 10%;
 }
 
-.form-desktop {
+.project-cards, .form-desktop, .right-side-image-b-desktop, .works-card-desktop, .grid-container-desktop, .divider-desktop, .desktop-healine-image, .desktop-nav{
   display: none;
 }
 
 @media screen and (min-width: 768px) {
-  .right-side-image {
-    display: none;
-  }
-
   main {
     width: 100%;
     height: 100%;
@@ -591,10 +569,6 @@ form {
     height: 19%;
     position: relative;
     padding: 264px 143px;
-  }
-
-  #menu-btn {
-    display: none;
   }
 
   .desktop-nav {
@@ -637,7 +611,7 @@ form {
   }
 
   h2 {
-    width: 50%;
+    width: 60%;
     height: 50%;
     font-weight: 400;
     font-size: 4rem;
@@ -654,10 +628,10 @@ form {
   }
 
   #brief-description {
-    width: 50%;
+    width: 30%;
     font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 32px;
+    font-size: 1rem;
+    line-height: 30px;
   }
 
   #contact {
@@ -670,8 +644,7 @@ form {
   #works-section {
     background-color: white;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 120px;
+    padding: 7rem;
   }
 
   .title-section {
@@ -679,88 +652,74 @@ form {
   }
 
   .works-title-block {
-    margin-top: 100px;
+    padding-bottom: 7rem;
   }
 
   .title {
-    margin: 135px 0 114px 153.5px;
     display: inline;
     align-items: center;
-  }
-
-  .crossline {
-    display: none;
+    margin: 0px;
   }
 
   .divider-desktop {
     display: block;
     float: right;
     margin-top: 25px;
+    width: 70%;
   }
 
   .desktop-divider {
     display: inline;
     align-items: center;
     margin-bottom: 56px;
-    padding-right: 10%;
-  }
-
-  .works-card {
-    display: none;
+    width: 100%;
   }
 
   .works-card-desktop {
     display: flex;
-    padding: 114px 143px 24px 141px;
+    width: 100%;
+    padding-bottom: 1.5rem;
+  }
+
+  .side-text {
+    padding-left: 3rem;
+  }
+
+  #bold-text {
+    font-size: 3rem;
+  }
+
+  #works-description {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  #competencies {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  #competencies > li {
+    margin-right: 1rem;
   }
 
   .side-text > h3,
   p,
-  ul,
-  button {
+  ul {
     margin-bottom: 30px;
   }
 
-  .works-card-desktop > div {
-    margin-right: 24px;
-  }
-
-  .grid-container-desktop {
+  .grid-container {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(2, auto);
-    margin-left: 141.5px;
-    column-gap: 24px;
+    column-gap: 1rem;
   }
 
-  .btn-type-b {
-    width: 369px;
-    position: relative;
-    top: 93px;
-    right: 10px;
+  .grid-container:hover {
+    cursor: pointer;
   }
-
-  .grid-container {
-    display: none;
-  }
-
-  .works-description {
-    font-size: 20px;
-  }
-
-  .image-text {
-    position: absolute;
-    top: 130px;
-  }
-
-  .competencies {
-    margin-top: 20px;
-  }
-
-  #works-description {
-    font-size: 20px;
-  }
-
+  
   .about-me-section {
     width: 100%;
     height: 27%;
@@ -772,10 +731,6 @@ form {
     font-size: 1.2rem;
     line-height: 32px;
     color: #f4f5f7;
-  }
-
-  .right-side-image-b {
-    display: none;
   }
 
   .right-side-image-b-desktop {
@@ -794,15 +749,11 @@ form {
     border-bottom: 2px solid rgb(154, 148, 148);
   }
 
-  .hor-line {
-    display: none;
-  }
-
   .about-me-title {
     font-size: 4rem;
   }
 
-  .list-container {
+  .list-container, .text-field{
     width: 100%;
   }
 
@@ -810,10 +761,6 @@ form {
     margin-top: 4rem;
     display: flex;
     justify-content: space-between;
-  }
-
-  .reg-form {
-    display: none;
   }
 
   .form-desktop {
@@ -838,21 +785,21 @@ form {
     padding-left: 1.7rem;
   }
 
-  .text-field {
-    width: 100%;
-  }
-
   .form-btn {
     display: flex;
     justify-content: flex-start;
     margin-left: 0.8rem;
   }
 
-  .footer-divider {
+  .form-contacts {
+    padding-top: 1.5rem;
+  }
+
+  .project-cards-mobile, .crossline, .footer-divider, .reg-form, .hor-line, .right-side-image-b, .works-card, .right-side-image, #menu-btn{
     display: none;
   }
 
-  .form-contacts {
-    padding-top: 1.5rem;
+  .project-cards {
+    display: flex;
   }
 }
