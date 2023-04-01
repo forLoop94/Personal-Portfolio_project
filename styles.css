@@ -734,8 +734,10 @@ form {
   }
  /* Modified by habtamualemayehu16@gmail.com */
   .grid-item:hover {
+    /* width: 102%;
+    height: 102%; */
     transform: scale(1.2);
-    
+    transition: all 5s;
   }
 
   .btn-type-b {
