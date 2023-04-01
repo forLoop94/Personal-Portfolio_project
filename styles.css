@@ -593,6 +593,12 @@ form {
     margin-top: 35px;
   }
 
+  a:hover,
+  a:focus {
+    background-color: #f0eaea;
+    color: #080807;
+  }
+
   .desktop-nav-content > li > a {
     margin-right: 32px;
     text-decoration: none;
@@ -726,6 +732,24 @@ form {
 
   .grid-container:hover {
     cursor: pointer;
+  }
+
+  .grid-item {
+    width: 100%;
+
+    /* transition: width 2s, height 2s; */
+  }
+
+  /* Modified by habtamualemayehu16@gmail.com */
+  .grid-item:hover {
+    /* width: 102%;
+    height: 102%; */
+    transform: scale(1.1);
+    transition: all 2s ease-out;
+  }
+
+  .btn-type-b {
+    transition: background-color 2s;
   }
 
   .about-me-section {
