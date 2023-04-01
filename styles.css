@@ -730,13 +730,21 @@ form {
 
   .grid-item {
     width: 100%;
-    transition: width 2s, height 2s;
+    /* transition: width 2s, height 2s; */
+  }
+ /* Modified by habtamualemayehu16@gmail.com */
+  .grid-item:hover {
+    /* width: 102%;
+    height: 102%; */
+    transform: scale(1.1);
+    transition: all 2s ease-out;
+  }
+  a:hover,
+  a:focus {
+    background-color: #f0eaea;
+    color: #080807;
   }
 
-  .grid-item:hover {
-    width: 102%;
-    height: 102%;
-  }
 
   .btn-type-b {
     transition: background-color 2s;
