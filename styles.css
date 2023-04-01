@@ -737,7 +737,7 @@ form {
     /* width: 102%;
     height: 102%; */
     transform: scale(1.2);
-    transition: all 5s;
+    transition: all 5s ease-out;
   }
 
   .btn-type-b {
