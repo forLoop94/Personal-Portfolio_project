@@ -736,9 +736,15 @@ form {
   .grid-item:hover {
     /* width: 102%;
     height: 102%; */
-    transform: scale(1.2);
-    transition: all 5s ease-out;
+    transform: scale(1.1);
+    transition: all 2s ease-out;
   }
+  a:hover,
+  a:focus {
+    background-color: #f0eaea;
+    color: #080807;
+  }
+
 
   .btn-type-b {
     transition: background-color 2s;
