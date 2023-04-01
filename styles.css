@@ -730,12 +730,12 @@ form {
 
   .grid-item {
     width: 100%;
-    transition: width 2s, height 2s;
+    /* transition: width 2s, height 2s; */
   }
-
+ /* Modified by habtamualemayehu16@gmail.com */
   .grid-item:hover {
-    width: 102%;
-    height: 102%;
+    transform: scale(1.2);
+    
   }
 
   .btn-type-b {
