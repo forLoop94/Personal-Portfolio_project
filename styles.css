@@ -8,6 +8,7 @@ body {
   background: #e5e5e5;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 main {
@@ -240,6 +241,7 @@ h2 {
   background: #fff5e1;
   color: #f55800;
   border: 2px solid #f55800;
+  cursor: pointer;
 }
 
 .btn-type-a:active,
@@ -251,7 +253,6 @@ h2 {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(6, auto);
-  margin: 0 24px;
   row-gap: 24px;
 }
 
@@ -279,7 +280,7 @@ h2 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 44px;
   display: flex;
   align-items: center;
@@ -290,7 +291,7 @@ h2 {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   color: #fff;
 }
@@ -298,6 +299,11 @@ h2 {
 .competencies {
   display: flex;
   list-style-type: none;
+}
+
+.project-cards,
+.project-cards-mobile {
+  width: 100%;
 }
 
 .btn-type-b {
@@ -310,7 +316,6 @@ h2 {
   display: flex;
   align-items: center;
   padding: 12px;
-  gap: 10px;
   background-color: #f55800;
   margin-top: 12px;
   border: none;
@@ -325,6 +330,7 @@ h2 {
   background: #fff5e1;
   color: #f55800;
   border: 2px solid #f55800;
+  cursor: pointer;
 }
 
 .btn-type-b:active {
@@ -447,7 +453,10 @@ h2 {
   margin-top: 10px;
 }
 
-/* Added by Sandeep Ghosh mailsg0912@gmail.com */
+hr {
+  display: none;
+}
+
 .reg-form {
   width: 375px;
   height: 800px;
@@ -524,4 +533,290 @@ form {
   height: 5px;
   background: #0d151e;
   border-radius: 10px;
+}
+
+#footer-contact {
+  display: flex;
+  margin-top: 10px;
+  list-style-type: none;
+  justify-content: center;
+}
+
+#footer-contact > li {
+  margin-right: 10%;
+}
+
+.project-cards,
+.form-desktop,
+.right-side-image-b-desktop,
+.works-card-desktop,
+.grid-container-desktop,
+.divider-desktop,
+.desktop-healine-image,
+.desktop-nav {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    width: 100%;
+    height: 100%;
+  }
+
+  header {
+    width: 100%;
+    height: 72px;
+  }
+
+  .logo {
+    margin: 26px 0 26px 154px;
+  }
+
+  #headline-section {
+    width: 100%;
+    height: 19%;
+    position: relative;
+    padding: 264px 143px;
+  }
+
+  .desktop-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop-nav-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 143px;
+    list-style-type: none;
+    margin-top: 35px;
+  }
+
+  .desktop-nav-content > li > a {
+    margin-right: 32px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .mail-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .desktop-healine-image {
+    height: 90%;
+    width: 50%;
+    position: absolute;
+    top: 48px;
+    right: 0;
+    display: flex;
+  }
+
+  h2 {
+    width: 60%;
+    height: 50%;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 82px;
+  }
+
+  #introduction-text {
+    width: 50%;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  #brief-description {
+    width: 30%;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 30px;
+  }
+
+  #contact {
+    position: absolute;
+    flex-direction: column;
+    top: 331px;
+    left: 36px;
+  }
+
+  #works-section {
+    background-color: white;
+    width: 100%;
+    padding: 7rem;
+  }
+
+  .title-section {
+    display: flex;
+  }
+
+  .works-title-block {
+    padding-bottom: 7rem;
+  }
+
+  .title {
+    display: inline;
+    align-items: center;
+    margin: 0;
+  }
+
+  .divider-desktop {
+    display: block;
+    float: right;
+    margin-top: 25px;
+    width: 70%;
+  }
+
+  .desktop-divider {
+    display: inline;
+    align-items: center;
+    margin-bottom: 56px;
+    width: 100%;
+  }
+
+  .works-card-desktop {
+    display: flex;
+    width: 100%;
+    padding-bottom: 1.5rem;
+  }
+
+  .side-text {
+    padding-left: 3rem;
+  }
+
+  #bold-text {
+    font-size: 3rem;
+  }
+
+  #works-description {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  #competencies {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  #competencies > li {
+    margin-right: 1rem;
+  }
+
+  .side-text > h3,
+  p,
+  ul {
+    margin-bottom: 30px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 1rem;
+  }
+
+  .grid-container:hover {
+    cursor: pointer;
+  }
+
+  .about-me-section {
+    width: 100%;
+    height: 27%;
+    padding: 8rem 8rem 3rem 8rem;
+  }
+
+  .about-me-section > div > p {
+    width: 45%;
+    font-size: 1.2rem;
+    line-height: 32px;
+    color: #f4f5f7;
+  }
+
+  .right-side-image-b-desktop {
+    position: absolute;
+    display: flex;
+    height: 30%;
+    width: 35%;
+    top: 12%;
+    left: 65%;
+  }
+
+  .thematic-break {
+    width: 100%;
+    height: 1px;
+    margin: 4rem 0;
+    border-bottom: 2px solid rgb(154, 148, 148);
+  }
+
+  .about-me-title {
+    font-size: 4rem;
+  }
+
+  .list-container,
+  .text-field {
+    width: 100%;
+  }
+
+  .about-me-cat {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form-desktop {
+    display: flex;
+    width: 100%;
+    height: 13%;
+    padding: 8%;
+    background-color: white;
+  }
+
+  .form-text {
+    padding: 0.8rem;
+    font-size: 2.5rem;
+    width: 50%;
+    line-height: 2.9rem;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+  }
+
+  form {
+    width: 80%;
+    padding-left: 1.7rem;
+  }
+
+  .form-btn {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0.8rem;
+  }
+
+  .form-contacts {
+    padding-top: 1.5rem;
+  }
+
+  .project-cards-mobile,
+  .crossline,
+  .footer-divider,
+  .reg-form,
+  .hor-line,
+  .right-side-image-b,
+  .works-card,
+  .right-side-image,
+  #menu-btn {
+    display: none;
+  }
+
+  .project-cards {
+    display: flex;
+  }
 }

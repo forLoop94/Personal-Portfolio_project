@@ -12,7 +12,6 @@
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 </head>
-
 <body>
   <main>
     <header>
@@ -24,11 +23,19 @@
           <div class="menu-bar"></div>
         </div>
       </nav>
+      <nav class="desktop-nav">
+        <ul class="desktop-nav-content">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#"><img src="images/Icon - Mail.png" alt="Mail icon" class="mail-icon"></a></li>
+        </ul>
+      </nav>
     </header>
     <section id="headline-section">
       <h2>Hey There. I'm Charles.</h2>
       <div id="introduction-text">I'm a Software Developer</div>
-      <p id="brief-description">
+      <p id="brief-description" class="healine-desc">
         I can help you build a product , feature or website. Look through some of my work and experience! If you like
         what you see and have a project you need coded,
         don’t hesitate to contact me.
@@ -71,9 +78,15 @@
         </ul>
       </div>
       <img class="right-side-image" src="images/Group.png" alt="right-design">
+      <img src="images/Desktop-healine-image.png" alt="Desktop headline right side image" class="desktop-healine-image">
     </section>
     <section id="works-section">
-      <h3 class="title">My Recent Works</h3>
+      <div class="works-title-block">
+        <h3 class="title">My Recent Works</h3>
+        <div class="divider-desktop">
+          <img class="desktop-divider" src="images/desktop-divider.png" alt="desktop divider">
+        </div>
+      </div>
       <div class="crossline"><img src="images/Vector (2).png" alt="crossline"></div>
       <div class="works-card">
         <div class="yoga-placeholder"><img src="images/Img Placeholder.png" alt="yoga-placeholder"></div>
@@ -88,9 +101,29 @@
         </ul>
         <button type="button" class="btn-type-a">See project</button>
       </div>
+      <div class="works-card-desktop">
+        <img src="images/Img Placeholder.png" alt="yoga-placeholder" class="project-cards">
+        <div class="side-text">
+          <h3 id="bold-text">Multi-Post Stories</h3>
+          <p id="works-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+          <ul id="competencies">
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+          <button class="btn-type-a">See project</button>
+        </div>
+      </div>
       <div class="grid-container">
         <div class="grid-item">
-          <img src="images/Img Placeholder (1).png" alt="place holder image 2">
+          <img src="images/Img Placeholder (1).png" alt="place holder image 2" class="project-cards-mobile">
+          <img src="images/Img Placeholder (2).png" alt="place holder image 2" class="project-cards">
+          <div><button type="button" class="btn-type-b">See project</button></div>
+        </div>
+        <div class="grid-item">
+          <img src="images/Img Placeholder (1).png" alt="place holder image 2" class="project-cards-mobile">
+          <img src="images/Img Placeholder (3).png" alt="place holder image 3" class="project-cards">
           <div class="image-text">
             <div>
               <h3 class="bold-text">Profesional Art Printing Data</h3>
@@ -106,7 +139,8 @@
           <div><button type="button" class="btn-type-b">See project</button></div>
         </div>
         <div class="grid-item">
-          <img src="images/Img Placeholder (1).png" alt="place holder image 2">
+          <img src="images/Img Placeholder (1).png" alt="place holder image 2" class="project-cards-mobile">
+          <img src="images/Img Placeholder (4).png" alt="place holder image 2" class="project-cards">
           <div class="image-text">
             <div>
               <h3 class="bold-text">Profesional Art Printing Data</h3>
@@ -122,7 +156,8 @@
           <div><button type="button" class="btn-type-b">See project</button></div>
         </div>
         <div class="grid-item">
-          <img src="images/Img Placeholder (1).png" alt="place holder image 2">
+          <img src="images/Img Placeholder (1).png" alt="place holder image 2" class="project-cards-mobile">
+          <img src="images/Img Placeholder (1).png" alt="place holder image 2" class="project-cards">
           <div class="image-text">
             <div>
               <h3 class="bold-text">Profesional Art Printing Data</h3>
@@ -138,7 +173,8 @@
           <div><button type="button" class="btn-type-b">See project</button></div>
         </div>
         <div class="grid-item">
-          <img src="images/Img Placeholder (1).png" alt="place holder image 2">
+          <img src="images/Img Placeholder (1).png" alt="place holder image 2" class="project-cards-mobile">
+          <img src="images/Img Placeholder (3).png" alt="place holder image 3" class="project-cards">
           <div class="image-text">
             <div>
               <h3 class="bold-text">Profesional Art Printing Data</h3>
@@ -154,31 +190,14 @@
           <div><button type="button" class="btn-type-b">See project</button></div>
         </div>
         <div class="grid-item">
-          <img src="images/Img Placeholder (1).png" alt="place holder image 2">
+          <img src="images/Img Placeholder (1).png" alt="place holder image 2" class="project-cards-mobile">
+          <img src="images/Img Placeholder (4).png" alt="place holder image 2" class="project-cards">
           <div class="image-text">
             <div>
               <h3 class="bold-text">Profesional Art Printing Data</h3>
             </div>
             <p class="works-description">A daily selection of privately personalized reads; no accounts or sign-ups
               required. Has been the industry's standard.</p>
-            <ul class="competencies">
-              <li>CSS</li>
-              <li>HTML</li>
-              <li>JAVASCRIPT</li>
-            </ul>
-          </div>
-          <div><button type="button" class="btn-type-b">See project</button></div>
-        </div>
-        <div class="grid-item">
-          <div class="placeholder-image">
-            <img src="images/Img Placeholder (1).png" alt="place holder image 2">
-          </div>
-          <div class="image-text">
-            <div>
-              <h3 class="bold-text">Profesional Art Printing Data</h3>
-            </div>
-            <div class="works-description">A daily selection of privately personalized reads; no accounts or sign-ups
-              required. Has been the industry's standard.</div>
             <ul class="competencies">
               <li>CSS</li>
               <li>HTML</li>
@@ -190,9 +209,7 @@
       </div>
     </section>
     <section class="about-me-section">
-      <div>
-        <h2 class="about-me-title">About me</h2>
-      </div>
+      <h2 class="about-me-title">About me</h2>
       <div>
         <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my
           work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
@@ -200,7 +217,9 @@
       </div>
       <div><button type="button" class="about-me-btn">Get my resume</button></div>
       <img class="right-side-image-b" src="images/illustration-about-me-mobile.png" alt="right-design about-me section">
+      <img class="right-side-image-b-desktop" src="images/about-image-desktop.png" alt="desktop image">
       <img class="hor-line" src="images/Devider.png" alt="horizental line">
+      <div class="thematic-break"></div>
       <div class="list-container">
         <ul class="about-me-cat">
           <li class="language">
@@ -219,6 +238,7 @@
               <div class="category-list">Ruby on Rails</div>
               <div class="category-list">RSpec</div>
               <div class="category-list">Capybara</div>
+              <div class="category-list">Selenium</div>
             </div>
           </li>
           <li class="skills">
@@ -234,10 +254,6 @@
         </ul>
       </div>
     </section>
-
-
-    <!--  contact form section -->
-    <!-- added by habtamualemayehu16@gmail.com   -->
     <section class="reg-form">
       <div class="form-body">
         <div class="header-text">
@@ -253,8 +269,19 @@
         </form>
       </div>
     </section>
+    <section class="form-desktop">
+      <p class="form-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+      <form class="main-form" action="https://formspree.io/f/xknaqwwd" method="post">
+        <input type="text" class="text-field" placeholder="Full name" min="1" max="30" name="Name" required>
+        <input type="email" class="text-field" placeholder="Email address" name="Email address" required>
+        <textarea name="Bio" id="bio" class="text-field" cols="30" rows="5" minlength="1" maxlength="500" placeholder="Write me something" required></textarea>
+        <div class="form-btn">
+            <button type="submit" class="about-me-btn">Get in touch</button>
+        </div>
+      </form>
+    </section>
     <footer class="form-contacts">
-      <ul id="contact">
+      <ul id="footer-contact">
         <li>
           <a href="#">
             <img src="images/git-icon.png" alt="github-icon" width="19.99px" height="20px">
