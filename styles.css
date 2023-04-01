@@ -258,8 +258,6 @@ h2 {
 
 .grid-item {
   position: relative;
-  width: 100%;
-  transition: width 0.5s, height 0.5s;
 }
 
 .placeholder-image {
