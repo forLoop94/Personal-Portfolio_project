@@ -717,6 +717,10 @@ form {
     margin-right: 1rem;
   }
 
+  .image-text {
+    margin-top: 10%;
+  }
+
   .side-text > h3,
   p,
   ul {
