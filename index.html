@@ -33,7 +33,7 @@
       </nav>
     </header>
     <section id="headline-section">
-      <h2>Hey There. I'm Charles.</h2>
+      <h2 class="greetings-header">Hey There. I'm Charles.</h2>
       <div id="introduction-text">I'm a Software Developer</div>
       <p id="brief-description" class="healine-desc">
         I can help you build a product , feature or website. Look through some of my work and experience! If you like
@@ -272,11 +272,14 @@
     <section class="form-desktop">
       <p class="form-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
       <form class="main-form" action="https://formspree.io/f/xknaqwwd" method="post">
-        <input type="text" class="text-field" placeholder="Full name" min="1" max="30" name="Name" required>
-        <input type="email" class="text-field" placeholder="Email address" name="Email address" required>
+        <label for="Name">Name</label>
+        <input type="text" class="text-field" placeholder="Full name" min="1" max="30" name="Name" id="Name" required>
+        <label for="emai">Email</label>
+        <input type="email" class="text-field" placeholder="Email address" name="email" id="email"  required>
+        <label for="bio">Short Text</label>
         <textarea name="Bio" id="bio" class="text-field" cols="30" rows="5" minlength="1" maxlength="500" placeholder="Write me something" required></textarea>
         <div class="form-btn">
-            <button type="submit" class="about-me-btn">Get in touch</button>
+            <button type="submit" class="about-me-btn" name="submit">Get in touch</button>
         </div>
       </form>
     </section>
