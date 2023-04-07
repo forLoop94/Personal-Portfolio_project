@@ -57,6 +57,8 @@
 
 - <a href="https://forLoop94.github.io">live demo</a>
 
+- <a href="https://www.loom.com/share/e3fed40260a644e98462ce3c1ffe0a76">Walkthrough Video</a>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
