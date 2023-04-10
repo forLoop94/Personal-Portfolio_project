@@ -11,13 +11,14 @@
   <link href='https://fonts.googleapis.com/css?family=Crete Round' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <script defer src="index.js"></script>
 </head>
 <body>
-  <main>
+  <main data-main>
     <header class="flex">
       <a href="#" class="logo">My Logo</a>
       <nav>
-        <div id="menu-btn">
+        <div id="menu-btn" data-menu>
           <div class="menu-bar"></div>
           <div class="menu-bar"></div>
           <div class="menu-bar"></div>
@@ -208,7 +209,7 @@
         </div>
       </div>
     </section>
-    <section class="about-me-section flex">
+    <section class="about-me-section flex" id="about-section">
       <h2 class="about-me-title flex">About me</h2>
       <div>
         <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my
@@ -254,7 +255,7 @@
         </ul>
       </div>
     </section>
-    <section class="reg-form">
+    <section class="reg-form" id="contact-section">
       <div class="form-body flex">
         <div class="header-text flex">
           <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
