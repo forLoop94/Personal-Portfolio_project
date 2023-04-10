@@ -18,3 +18,13 @@ const item1 = document.createElement('li');
   portfolio.addEventListener('click', () => {
     modal.style.visibility = 'hidden';
   });
+
+  const item2 = document.createElement('li');
+  const about = document.createElement('a');
+  about.href = '#about-section';
+  about.className = 'menu-content';
+  about.textContent = 'About';
+  item2.appendChild(about);
+  about.addEventListener('click', () => {
+    modal.style.visibility = 'hidden';
+  });
