@@ -537,6 +537,49 @@ form {
   display: none;
 }
 
+/* modal styling */
+#custom-modal {
+  width: 375px;
+  height: 590px;
+  background-color: #3C3A39;
+  position: fixed;
+  top: 0px;
+  padding: 20px;
+  z-index: 1;
+}
+
+#modal-delete {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  font-size: 20px;
+  color:#67798E;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+}
+
+#menu-list {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.menu-content {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #FFF5E1;
+  border-bottom: 1px solid #6F6C6B;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+/* end of modal styling */
+
 @media screen and (min-width: 768px) {
   main {
     width: 100%;
