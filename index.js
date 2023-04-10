@@ -40,7 +40,7 @@ const menuDisplay = () => {
   contact.textContent = 'Contact';
   item3.appendChild(contact);
   contact.addEventListener('click', () => {
-  modal.style.visibility = 'hidden';
+    modal.style.visibility = 'hidden';
   });
 
   menuList.appendChild(item1);
