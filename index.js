@@ -28,3 +28,13 @@ const item1 = document.createElement('li');
   about.addEventListener('click', () => {
     modal.style.visibility = 'hidden';
   });
+
+const item3 = document.createElement('li');
+const contact = document.createElement('a');
+contact.href = '#contact-section';
+contact.className = 'menu-content';
+contact.textContent = 'Contact';
+item3.appendChild(contact);
+contact.addEventListener('click', () => {
+modal.style.visibility = 'hidden';
+});
