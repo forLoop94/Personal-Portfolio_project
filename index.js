@@ -164,8 +164,27 @@ const projectData = [
     },
     'Link to live version': '#',
     'Link to source': '#'
+  },
+  {
+    name: 'Project Three',
+    description: 'You need to update the main page so that the projects section is created dynamically using the information stored in that JavaScript object. Remember, all of the HTML in that section is created when the page loads.',
+    'Featured image': {
+      mobile: {
+        src: 'images/Img-Placeholder(1).png',
+        alt: '',
+      },
+      desktop: {
+        src: 'images/Img-Placeholder(4).png',
+        alt: '',
+      }
+    },
+    technologies: {
+      tech1: 'CSS',
+      tech2: 'HTML',
+      tech3: 'Javascript'
+    },
+    'Link to live version': '#',
+    'Link to source': '#'
   }
-
-
 ]
 
