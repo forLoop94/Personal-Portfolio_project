@@ -34,7 +34,7 @@ header {
 
 .logo {
   height: 24px;
-  width: 70px;
+  width: 6rem;
   font-family: Roboto, sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -290,8 +290,7 @@ h2 {
   list-style-type: none;
 }
 
-.project-cards,
-.project-cards-mobile {
+.project-cards, .project-cards-mobile {
   width: 100%;
 }
 
@@ -526,7 +525,7 @@ form {
   margin-right: 10%;
 }
 
-.project-cards,
+.project-cards-desktop,
 .form-desktop,
 .right-side-image-b-desktop,
 .works-card-desktop,
@@ -579,6 +578,7 @@ form {
 }
 
 /* end of modal styling */
+
 
 @media screen and (min-width: 768px) {
   main {
@@ -718,6 +718,7 @@ form {
   }
 
   .works-card-desktop {
+
     width: 100%;
     padding-bottom: 1.5rem;
   }
@@ -755,16 +756,11 @@ form {
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(2, auto);
     column-gap: 1rem;
+    width: 100%;
   }
 
   .grid-container:hover {
     cursor: pointer;
-  }
-
-  .grid-item {
-    width: 100%;
-
-    /* transition: width 2s, height 2s; */
   }
 
   /* Modified by habtamualemayehu16@gmail.com */
@@ -867,5 +863,55 @@ form {
 
   .main-form label {
     display: none;
+  }
+
+  #details-popup {
+    width: 90vw;
+    height: 80vh;
+    top: 10%;
+    left: 4%;
+  }
+
+  .popup-header {
+    padding-bottom: 0px;
+  }
+
+  .popup-body{
+    flex-direction: row;
+    height: 56vh;
+  }
+
+  .popup-image {
+    width: 60%;
+    margin: 0px;
+  }
+
+  .side-text {
+    width: 50%;
+    padding: 0px 1rem;
+    height: 50%;
+  }
+
+  .demoButtons {
+    margin-top: 10px;
+    justify-content: flex-start;
+  }
+
+  .demoButtons a {
+    margin-right: 1rem;
+  }
+
+  .project-cards-desktop {
+    display: grid;
+    width: 100%;
+  }
+
+  .works-card-desktop {
+    display: flex;
+    margin-top: 7rem;
+  }
+
+  .extras {
+    width: 90%;
   }
 }

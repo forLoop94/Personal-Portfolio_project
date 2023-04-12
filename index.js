@@ -56,3 +56,4 @@ const menuDisplay = () => {
   deleteButton.addEventListener('click', removeModal);
 };
 menuButton.addEventListener('click', menuDisplay);
+
