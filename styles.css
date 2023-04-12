@@ -614,6 +614,40 @@ form {
   color: #172B4D;
 }
 
+.popup-body {
+  flex-direction: column;
+ }
+ 
+ .popup-image {
+   margin: 15px 0px;
+ }
+ 
+ .popup-technologies > li {
+   font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 13px;
+   line-height: 16px;
+   color: #3C3A39;
+   border: 1px solid #DFE1E6;
+ }
+ 
+ .popup-text {
+   font-family: 'Inter' sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #344563;
+ }
+ 
+ .demoButtons {
+   justify-content: space-between;
+ }
+ 
+ .demoButtons a {
+   text-decoration: none;
+ }
 
 @media screen and (min-width: 768px) {
   main {
