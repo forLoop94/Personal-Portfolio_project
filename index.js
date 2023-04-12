@@ -57,3 +57,21 @@ const menuDisplay = () => {
 };
 menuButton.addEventListener('click', menuDisplay);
 
+// Portfolio details popup window
+
+const workSection = document.querySelector('#works-section');
+
+// ...Create the unique card...
+
+let uniqueCard = () => {
+  const workSectionTitle = document.createElement('div');
+  workSectionTitle.className = 'works-title-block';
+  workSectionTitle.innerHTML = `
+    <h3 class="title flex">My Recent Works</h3>
+    <div class="divider-desktop">
+      <img class="desktop-divider" src="images/desktop-divider.png" alt="">
+    </div>
+  </div>
+  <div class="crossline"><img src="images/Vector (2).png" alt=""></div>
+  `
+  workSection.appendChild(workSectionTitle);
