@@ -579,6 +579,41 @@ form {
 
 /* end of modal styling */
 
+/* popup styling */
+
+#details-popup {
+  width: 343px;
+  height: 620px;
+  padding: 24px;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+  margin: 1px 16.5px;
+}
+
+.popup-header {
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+#popup-close {
+  color: #8c8d91;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.popup-header h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+}
+
 
 @media screen and (min-width: 768px) {
   main {
