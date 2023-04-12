@@ -34,7 +34,7 @@ header {
 
 .logo {
   height: 24px;
-  width: 70px;
+  width: 6rem;
   font-family: Roboto, sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -126,6 +126,16 @@ h2 {
 
 .about-me-cat > li {
   margin: 20px 10px;
+}
+
+.popup-technologies > li {
+  font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
+  border: 1px solid #dfe1e6;
 }
 
 #contact > li {
@@ -526,7 +536,7 @@ form {
   margin-right: 10%;
 }
 
-.project-cards,
+.project-cards-desktop,
 .form-desktop,
 .right-side-image-b-desktop,
 .works-card-desktop,
@@ -580,6 +590,66 @@ form {
 
 /* end of modal styling */
 
+/* popup styling */
+
+#details-popup {
+  width: 343px;
+  height: 620px;
+  padding: 24px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  margin: 1px 16.5px;
+}
+
+.popup-header {
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+#popup-close {
+  color: #8c8d91;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.popup-header h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.popup-body {
+  flex-direction: column;
+}
+
+.popup-image {
+  margin: 15px 0;
+}
+
+.popup-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.demoButtons {
+  justify-content: space-between;
+}
+
+.demoButtons a {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   main {
     width: 100%;
@@ -627,6 +697,10 @@ form {
   a:focus {
     background-color: #f0eaea;
     color: #080807;
+  }
+
+  .demoButtons a {
+    margin-right: 1rem;
   }
 
   .desktop-nav-content > li > a {
@@ -720,10 +794,14 @@ form {
   .works-card-desktop {
     width: 100%;
     padding-bottom: 1.5rem;
+    display: flex;
+    margin-top: 7rem;
   }
 
   .side-text {
     padding-left: 3rem;
+    width: 50%;
+    height: 50%;
   }
 
   #bold-text {
@@ -755,16 +833,11 @@ form {
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(2, auto);
     column-gap: 1rem;
+    width: 100%;
   }
 
   .grid-container:hover {
     cursor: pointer;
-  }
-
-  .grid-item {
-    width: 100%;
-
-    /* transition: width 2s, height 2s; */
   }
 
   /* Modified by habtamualemayehu16@gmail.com */
@@ -867,5 +940,40 @@ form {
 
   .main-form label {
     display: none;
+  }
+
+  #details-popup {
+    width: 90vw;
+    height: 80vh;
+    top: 10%;
+    left: 4%;
+  }
+
+  .popup-header {
+    padding-bottom: 0;
+  }
+
+  .popup-body {
+    flex-direction: row;
+    height: 56vh;
+  }
+
+  .popup-image {
+    width: 60%;
+    margin: 0;
+  }
+
+  .demoButtons {
+    margin-top: 10px;
+    justify-content: flex-start;
+  }
+
+  .project-cards-desktop {
+    display: grid;
+    width: 100%;
+  }
+
+  .extras {
+    width: 90%;
   }
 }
