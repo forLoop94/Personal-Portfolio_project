@@ -114,3 +114,8 @@ function worksDesktop() {
 }
 
 worksDesktop();
+
+// ...Create recurring cards...
+
+const cardsContainer = document.createElement('div');
+cardsContainer.className = 'grid-container';
