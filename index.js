@@ -227,7 +227,7 @@ const projectData = [
     },
     'Link to live version': '#',
     'Link to source': '#'
-  }
+  },
   {
     name: 'Project Six',
     description: 'You need to update the main page so that the projects section is created dynamically using the information stored in that JavaScript object. Remember, all of the HTML in that section is created when the page loads.',
