@@ -63,7 +63,7 @@ const workSection = document.querySelector('#works-section');
 
 // ...Create the unique card...
 
-let uniqueCard = () => {
+const uniqueCard = () => {
   const workSectionTitle = document.createElement('div');
   workSectionTitle.className = 'works-title-block';
   workSectionTitle.innerHTML = `
@@ -73,7 +73,7 @@ let uniqueCard = () => {
     </div>
   </div>
   <div class="crossline"><img src="images/Vector (2).png" alt=""></div>
-  `
+  `;
   workSection.appendChild(workSectionTitle);
 
   const worksCard = document.createElement('div');
@@ -89,9 +89,9 @@ let uniqueCard = () => {
       <li>HTML</li>
       <li>JAVASCRIPT</li>
     </ul>
-    <button type="button" class="btn-type-a flex">See project</button>`
+    <button type="button" class="btn-type-a flex">See project</button>`;
   workSection.appendChild(worksCard);
-}
+};
 uniqueCard();
 
 function worksDesktop() {
@@ -109,7 +109,7 @@ function worksDesktop() {
       <li>Ruby</li>
     </ul>
     <button type="button" class="btn-type-a">See project</button>
-  </div>`
+  </div>`;
   workSection.appendChild(worksCardDesktop);
 }
 
@@ -119,7 +119,6 @@ worksDesktop();
 
 const cardsContainer = document.createElement('div');
 cardsContainer.className = 'grid-container';
-
 
 const projectData = [
   {
@@ -133,15 +132,15 @@ const projectData = [
       desktop: {
         src: 'images/Img-Placeholder(2).png',
         alt: '',
-      }
+      },
     },
     technologies: {
       tech1: 'CSS',
       tech2: 'HTML',
-      tech3: 'Javascript'
+      tech3: 'Javascript',
     },
     'Link to live version': '#',
-    'Link to source': '#'
+    'Link to source': '#',
   },
 
   {
@@ -155,15 +154,15 @@ const projectData = [
       desktop: {
         src: 'images/Img-Placeholder(3).png',
         alt: '',
-      }
+      },
     },
     technologies: {
       tech1: 'CSS',
       tech2: 'HTML',
-      tech3: 'Javascript'
+      tech3: 'Javascript',
     },
     'Link to live version': '#',
-    'Link to source': '#'
+    'Link to source': '#',
   },
   {
     name: 'Project Three',
@@ -176,15 +175,15 @@ const projectData = [
       desktop: {
         src: 'images/Img-Placeholder(4).png',
         alt: '',
-      }
+      },
     },
     technologies: {
       tech1: 'CSS',
       tech2: 'HTML',
-      tech3: 'Javascript'
+      tech3: 'Javascript',
     },
     'Link to live version': '#',
-    'Link to source': '#'
+    'Link to source': '#',
   },
   {
     name: 'Project Four',
@@ -197,15 +196,15 @@ const projectData = [
       desktop: {
         src: 'images/Img-Placeholder(1).png',
         alt: '',
-      }
+      },
     },
     technologies: {
       tech1: 'CSS',
       tech2: 'HTML',
-      tech3: 'Javascript'
+      tech3: 'Javascript',
     },
     'Link to live version': '#',
-    'Link to source': '#'
+    'Link to source': '#',
   },
   {
     name: 'Project Five',
@@ -218,15 +217,15 @@ const projectData = [
       desktop: {
         src: 'images/Img-Placeholder(3).png',
         alt: '',
-      }
+      },
     },
     technologies: {
       tech1: 'CSS',
       tech2: 'HTML',
-      tech3: 'Javascript'
+      tech3: 'Javascript',
     },
     'Link to live version': '#',
-    'Link to source': '#'
+    'Link to source': '#',
   },
   {
     name: 'Project Six',
@@ -239,20 +238,20 @@ const projectData = [
       desktop: {
         src: 'images/Img-Placeholder(4).png',
         alt: '',
-      }
+      },
     },
     technologies: {
       tech1: 'CSS',
       tech2: 'HTML',
-      tech3: 'Javascript'
+      tech3: 'Javascript',
     },
     'Link to live version': '#',
-    'Link to source': '#'
-  }
-]
+    'Link to source': '#',
+  },
+];
 
 function recurringCards(arr) {
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i += 1) {
     const card = document.createElement('div');
     card.className = 'grid-item';
     const cardDetails = arr[i];
@@ -270,7 +269,7 @@ function recurringCards(arr) {
         <li>${cardDetails.technologies.tech3}</li>
       </ul>
     </div>
-    <div><button type="button" class="btn-type-b flex">See project</button></div>`
+    <div><button type="button" class="btn-type-b flex">See project</button></div>`;
     cardsContainer.appendChild(card);
   }
   return cardsContainer;
@@ -278,16 +277,14 @@ function recurringCards(arr) {
 recurringCards(projectData);
 workSection.appendChild(cardsContainer);
 
-
 const cardButton = document.querySelectorAll('.btn-type-b');
 
 function loopButton(arr, brr) {
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i += 1) {
     const popupBtn = arr[i];
     popupBtn.addEventListener('click', () => {
-      for (let j = 0; j < brr.length; j++) {
+      for (let j = 0; j < brr.length; j += 1) {
         if (j === i) {
-          console.log(brr[j].name)
           const details = brr[j];
           const detailsPopup = document.createElement('section');
           detailsPopup.id = 'details-popup';
@@ -309,9 +306,9 @@ function loopButton(arr, brr) {
                   <a href=${details['Link to live version']} class="btn-type-a">See source <img src="images/github-icon.png" alt="" width='13'></a>
                 </div>
               </div>
-            </div>`
+            </div>`;
           mobileVersionContainer.appendChild(detailsPopup);
-         
+
           const popupClose = document.querySelector('#popup-close');
           const popHeader = document.querySelector('.popup-header');
           popupClose.addEventListener('click', () => {
@@ -319,9 +316,8 @@ function loopButton(arr, brr) {
           });
         }
       }
-    })
+    });
   }
 }
-
 
 loopButton(cardButton, projectData);
