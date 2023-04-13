@@ -368,7 +368,14 @@ console.log(localStorage.getItem('email'));
 emailMob.value = localStorage.getItem('email');
 
 
-
+const formData = {
+  'Name in mobile version': mobileName.value,
+  'Name in desktop version': desktopName.value,
+  'Email in mobile version': emailMob.value,
+  'Email in desktop version': email.value,
+  'Text in mobile version': mobileText.value,
+  'Text in desktop version': desktopText.value
+}
 
 
 
