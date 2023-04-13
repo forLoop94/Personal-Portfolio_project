@@ -330,3 +330,28 @@ const messageMob = document.querySelector('.message-mob');
 const messageDesk = document.querySelector('.message-desk');
 const formDesktop = document.querySelector('.main-form');
 const formMobile = document.querySelector('.form-mobile');
+
+function isValid(str) {
+  if (str.toLowerCase() !== str) {
+    return false;
+  }
+  return true;
+}
+
+formDesktop.addEventListener('submit', (event) => {
+  if (isValid(email.value) === false) {
+    messageDesk.textContent = "Email must be in lowercase!";
+    event.preventDefault();
+  } else {
+    messageDesk.textContent = "";
+  }  
+});
+
+formMobile.addEventListener('submit', (event) => {
+  if (isValid(emailMob.value) === false) {
+    messageMob.textContent = "Email must be in lowercase!";
+    event.preventDefault();
+  } else {
+    messageMob.textContent = "";
+  }  
+});
