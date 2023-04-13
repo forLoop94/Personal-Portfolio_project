@@ -340,18 +340,18 @@ function isValid(str) {
 
 formDesktop.addEventListener('submit', (event) => {
   if (isValid(email.value) === false) {
-    messageDesk.textContent = "Email must be in lowercase!";
+    messageDesk.textContent = 'Email must be in lowercase!';
     event.preventDefault();
   } else {
-    messageDesk.textContent = "";
-  }  
+    messageDesk.textContent = '';
+  }
 });
 
 formMobile.addEventListener('submit', (event) => {
   if (isValid(emailMob.value) === false) {
-    messageMob.textContent = "Email must be in lowercase!";
+    messageMob.textContent = 'Email must be in lowercase!';
     event.preventDefault();
   } else {
-    messageMob.textContent = "";
-  }  
+    messageMob.textContent = '';
+  }
 });
