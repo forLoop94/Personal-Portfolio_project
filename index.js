@@ -330,6 +330,12 @@ const messageMob = document.querySelector('.message-mob');
 const messageDesk = document.querySelector('.message-desk');
 const formDesktop = document.querySelector('.main-form');
 const formMobile = document.querySelector('.form-mobile');
+const mobileName = document.querySelector('.form-mobile input');
+const desktopName = document.querySelector('.main-form input');
+const mobileText = document.querySelector('.form-mobile textarea');
+const desktopText = document.querySelector('.main-form textarea');
+
+
 
 function isValid(str) {
   if (str.toLowerCase() !== str) {
@@ -353,5 +359,17 @@ formMobile.addEventListener('submit', (event) => {
     event.preventDefault();
   } else {
     messageMob.textContent = '';
+    localStorage.setItem('email', emailMob.value);
   }
 });
+
+console.log(localStorage.getItem('email'));
+
+emailMob.value = localStorage.getItem('email');
+
+
+
+
+
+
+
