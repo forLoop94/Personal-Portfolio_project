@@ -321,3 +321,12 @@ function loopButton(arr, brr) {
 }
 
 loopButton(cardButton, projectData);
+
+// ...Email validation...
+
+const email = document.querySelector('#e-mail');
+const emailMob = document.querySelector('#e-mail-mob');
+const messageMob = document.querySelector('.message-mob');
+const messageDesk = document.querySelector('.message-desk');
+const formDesktop = document.querySelector('.main-form');
+const formMobile = document.querySelector('.form-mobile');
