@@ -262,11 +262,12 @@
     <section class="reg-form" id="contact-section">
       <div class="form-body flex">
         <div class="header-text flex">
-          <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+          <p id="form-text-mob">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         </div>
-        <form action="https://formspree.io/f/xknaqwwd" method="post">
+        <form action="https://formspree.io/f/xknaqwwd" method="post" class="form-mobile">
           <input type="text" class="text-field" placeholder="Full name" min="1" max="30" name="Name" required>
-          <input type="email" class="text-field" placeholder="Email address" name="Email address" required>
+          <input type="email" id="e-mail-mob" class="text-field" placeholder="Email address" name="Email address" required>
+          <small class="message-mob"></small>
           <textarea name="Bio" id="bio" class="text-field" cols="30" rows="5" minlength="1" maxlength="500" placeholder="Write me something" required></textarea>
           <div class="form-btn flex">
               <button type="submit" class="about-me-btn">Get in touch</button>
