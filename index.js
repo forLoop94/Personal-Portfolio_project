@@ -358,7 +358,6 @@ formMobile.addEventListener('submit', (event) => {
   } else {
     messageMob.textContent = '';
   }
-
 });
 
 // ...portfolio-Preserve data in the browser...
@@ -394,5 +393,3 @@ window.addEventListener('load', () => {
   email.value = storedDesktopData.email;
   desktopText.value = storedDesktopData.text;
 });
-
-
