@@ -347,11 +347,3 @@ formDesktop.addEventListener('submit', (event) => {
   }
 });
 
-formMobile.addEventListener('submit', (event) => {
-  if (isValid(emailMob.value) === false) {
-    messageMob.textContent = 'Email must be in lowercase!';
-    event.preventDefault();
-  } else {
-    messageMob.textContent = '';
-  }
-});
