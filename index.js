@@ -335,8 +335,6 @@ const desktopName = document.querySelector('.main-form input');
 const mobileText = document.querySelector('.form-mobile textarea');
 const desktopText = document.querySelector('.main-form textarea');
 
-
-
 function isValid(str) {
   if (str.toLowerCase() !== str) {
     return false;
@@ -350,6 +348,13 @@ formDesktop.addEventListener('submit', (event) => {
     event.preventDefault();
   } else {
     messageDesk.textContent = '';
+    const formDataDesktop = {
+      Name: desktopName.value,
+      Email: email.value,
+      Text: desktopText.value
+    }
+    const stringifyFormDataDesktop = JSON.stringify(formDataDesktop);
+    localStorage.setItem('desktopData', stringifyFormDataDesktop);
   }
 });
 
@@ -359,23 +364,21 @@ formMobile.addEventListener('submit', (event) => {
     event.preventDefault();
   } else {
     messageMob.textContent = '';
-    localStorage.setItem('email', emailMob.value);
+    const formDataMobile = {
+      Name: mobileName.value,
+      Email: emailMob.value,
+      Text: mobileText.value
+    }
+    const stringifyFormDataMobile = JSON.stringify(formDataMobile);
+    localStorage.setItem('mobileData', stringifyFormDataMobile);
   }
 });
 
-console.log(localStorage.getItem('email'));
-
-emailMob.value = localStorage.getItem('email');
+let storedMobileData = JSON.parse(localStorage.getItem('mobileData'));
 
 
-const formData = {
-  'Name in mobile version': mobileName.value,
-  'Name in desktop version': desktopName.value,
-  'Email in mobile version': emailMob.value,
-  'Email in desktop version': email.value,
-  'Text in mobile version': mobileText.value,
-  'Text in desktop version': desktopText.value
-}
+mobileName.value = storedMobileData.Name;
+
 
 
 
