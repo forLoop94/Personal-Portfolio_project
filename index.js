@@ -374,12 +374,10 @@ formMobile.addEventListener('submit', (event) => {
   }
 });
 
-const storedMobileData = JSON.parse(localStorage.getItem('mobileData'));
+let storedMobileData = JSON.parse(localStorage.getItem('mobileData'));
 
 
-
-mobileName.value = storedMobileData.name;
-
+mobileName.value = storedMobileData.Name;
 
 
 
