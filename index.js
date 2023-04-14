@@ -370,7 +370,7 @@ formMobile.addEventListener('change', () => {
   };
   const stringifyFormDataMobile = JSON.stringify(formDataMobile);
   localStorage.setItem('mobileData', stringifyFormDataMobile);
-})
+});
 
 formDesktop.addEventListener('change', () => {
   const formDataDesktop = {
@@ -380,7 +380,7 @@ formDesktop.addEventListener('change', () => {
   };
   const stringifyFormDataDesktop = JSON.stringify(formDataDesktop);
   localStorage.setItem('desktopData', stringifyFormDataDesktop);
-})
+});
 
 const storedMobileData = JSON.parse(localStorage.getItem('mobileData'));
 const storedDesktopData = JSON.parse(localStorage.getItem('desktopData'));
@@ -392,11 +392,4 @@ window.addEventListener('load', () => {
   desktopName.value = storedDesktopData.name;
   email.value = storedDesktopData.email;
   desktopText.value = storedDesktopData.text;
-})
-
-
-
-
-
-
-
+});
