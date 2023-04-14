@@ -349,9 +349,9 @@ formDesktop.addEventListener('submit', (event) => {
   } else {
     messageDesk.textContent = '';
     const formDataDesktop = {
-      Name: desktopName.value,
-      Email: email.value,
-      Text: desktopText.value
+      name: desktopName.value,
+      email: email.value,
+      text: desktopText.value
     }
     const stringifyFormDataDesktop = JSON.stringify(formDataDesktop);
     localStorage.setItem('desktopData', stringifyFormDataDesktop);
@@ -365,19 +365,21 @@ formMobile.addEventListener('submit', (event) => {
   } else {
     messageMob.textContent = '';
     const formDataMobile = {
-      Name: mobileName.value,
-      Email: emailMob.value,
-      Text: mobileText.value
+      name: mobileName.value,
+      email: emailMob.value,
+      text: mobileText.value
     }
     const stringifyFormDataMobile = JSON.stringify(formDataMobile);
     localStorage.setItem('mobileData', stringifyFormDataMobile);
   }
 });
 
-let storedMobileData = JSON.parse(localStorage.getItem('mobileData'));
+const storedMobileData = JSON.parse(localStorage.getItem('mobileData'));
 
 
-mobileName.value = storedMobileData.Name;
+
+mobileName.value = storedMobileData.name;
+
 
 
 
