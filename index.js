@@ -348,13 +348,6 @@ formDesktop.addEventListener('submit', (event) => {
     event.preventDefault();
   } else {
     messageDesk.textContent = '';
-    const formDataDesktop = {
-      name: desktopName.value,
-      email: email.value,
-      text: desktopText.value,
-    };
-    const stringifyFormDataDesktop = JSON.stringify(formDataDesktop);
-    localStorage.setItem('desktopData', stringifyFormDataDesktop);
   }
 });
 
@@ -364,23 +357,63 @@ formMobile.addEventListener('submit', (event) => {
     event.preventDefault();
   } else {
     messageMob.textContent = '';
-    const formDataMobile = {
-      name: mobileName.value,
-      email: emailMob.value,
-      text: mobileText.value,
-    };
-    const stringifyFormDataMobile = JSON.stringify(formDataMobile);
-    localStorage.setItem('mobileData', stringifyFormDataMobile);
   }
 });
+
+// ...portfolio-Preserve data in the browser...
+
+formMobile.addEventListener('change', () => {
+  const formDataMobile = {
+    name: mobileName.value,
+    email: emailMob.value,
+    text: mobileText.value,
+  };
+  const stringifyFormDataMobile = JSON.stringify(formDataMobile);
+  localStorage.setItem('mobileData', stringifyFormDataMobile);
+})
+
+formDesktop.addEventListener('change', () => {
+  const formDataDesktop = {
+    name: desktopName.value,
+    email: email.value,
+    text: desktopText.value,
+  };
+  const stringifyFormDataDesktop = JSON.stringify(formDataDesktop);
+  localStorage.setItem('desktopData', stringifyFormDataDesktop);
+})
 
 const storedMobileData = JSON.parse(localStorage.getItem('mobileData'));
 
 const storedDesktopData = JSON.parse(localStorage.getItem('desktopData'));
 
-mobileName.value = storedMobileData.name;
-emailMob.value = storedMobileData.email;
-mobileText.value = storedMobileData.text;
-desktopName.value = storedDesktopData.name;
-email.value = storedDesktopData.email;
-desktopText.value = storedDesktopData.text;
+
+function retrieveData(pageData, browserData) {
+  return (pageData = browserData);
+}
+// mobileName.value = storedMobileData.name;
+// window.onload = retrieveData(mobileName.value, storedMobileData.name);
+
+window.onload = function(){
+  mobileName.value = storedMobileData.name;
+};
+window.onload = function(){
+  emailMob.value = storedMobileData.email;
+};
+window.onload = function(){
+  mobileText.value = storedMobileData.text;
+};
+window.onload = function(){
+  desktopName.value = storedDesktopData.name;
+};
+window.onload = function(){
+  email.value = storedDesktopData.email;
+};
+window.onload = function(){
+  desktopText.value = storedDesktopData.text;
+};
+
+
+
+
+
+
