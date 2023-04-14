@@ -380,7 +380,11 @@ const storedDesktopData = JSON.parse(localStorage.getItem('desktopData'));
 
 
 mobileName.value = storedMobileData.Name;
-
+emailMob.value = storedMobileData.email;
+mobileText.value = storedMobileData.text;
+desktopName.value = storedDesktopData.name;
+email.value = storedDesktopData.email;
+desktopText.value = storedDesktopData.text;
 
 
 
