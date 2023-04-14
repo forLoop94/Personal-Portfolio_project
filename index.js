@@ -383,34 +383,17 @@ formDesktop.addEventListener('change', () => {
 })
 
 const storedMobileData = JSON.parse(localStorage.getItem('mobileData'));
-
 const storedDesktopData = JSON.parse(localStorage.getItem('desktopData'));
 
-
-function retrieveData(pageData, browserData) {
-  return (pageData = browserData);
-}
-// mobileName.value = storedMobileData.name;
-// window.onload = retrieveData(mobileName.value, storedMobileData.name);
-
-window.onload = function(){
+window.addEventListener('load', () => {
   mobileName.value = storedMobileData.name;
-};
-window.onload = function(){
   emailMob.value = storedMobileData.email;
-};
-window.onload = function(){
   mobileText.value = storedMobileData.text;
-};
-window.onload = function(){
   desktopName.value = storedDesktopData.name;
-};
-window.onload = function(){
   email.value = storedDesktopData.email;
-};
-window.onload = function(){
   desktopText.value = storedDesktopData.text;
-};
+})
+
 
 
 
