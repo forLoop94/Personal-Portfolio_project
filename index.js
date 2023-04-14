@@ -351,8 +351,8 @@ formDesktop.addEventListener('submit', (event) => {
     const formDataDesktop = {
       name: desktopName.value,
       email: email.value,
-      text: desktopText.value
-    }
+      text: desktopText.value,
+    };
     const stringifyFormDataDesktop = JSON.stringify(formDataDesktop);
     localStorage.setItem('desktopData', stringifyFormDataDesktop);
   }
@@ -367,17 +367,16 @@ formMobile.addEventListener('submit', (event) => {
     const formDataMobile = {
       name: mobileName.value,
       email: emailMob.value,
-      text: mobileText.value
-    }
+      text: mobileText.value,
+    };
     const stringifyFormDataMobile = JSON.stringify(formDataMobile);
     localStorage.setItem('mobileData', stringifyFormDataMobile);
   }
 });
 
-let storedMobileData = JSON.parse(localStorage.getItem('mobileData'));
+const storedMobileData = JSON.parse(localStorage.getItem('mobileData'));
 
 const storedDesktopData = JSON.parse(localStorage.getItem('desktopData'));
-
 
 mobileName.value = storedMobileData.name;
 emailMob.value = storedMobileData.email;
@@ -385,5 +384,3 @@ mobileText.value = storedMobileData.text;
 desktopName.value = storedDesktopData.name;
 email.value = storedDesktopData.email;
 desktopText.value = storedDesktopData.text;
-
-
