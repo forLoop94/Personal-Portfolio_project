@@ -342,9 +342,16 @@ function isValid(str) {
   return true;
 }
 
+// ...Additional requirements - if email is in uppercase, change it in the email to lower case so the user can use at once...
+
+function emailToLowercsae(str) {
+  return str.toLowerCase();
+}
+
 formDesktop.addEventListener('submit', (event) => {
-  if (isValid(email.value) === false) {
+  if (!isValid(email.value)) {
     messageDesk.textContent = 'Email must be in lowercase!';
+    email.value = emailToLowercsae(email.value);
     event.preventDefault();
   } else {
     messageDesk.textContent = '';
@@ -352,8 +359,9 @@ formDesktop.addEventListener('submit', (event) => {
 });
 
 formMobile.addEventListener('submit', (event) => {
-  if (isValid(emailMob.value) === false) {
+  if (!isValid(emailMob.value)) {
     messageMob.textContent = 'Email must be in lowercase!';
+    emailMob.value = emailToLowercsae(emailMob.value);
     event.preventDefault();
   } else {
     messageMob.textContent = '';
