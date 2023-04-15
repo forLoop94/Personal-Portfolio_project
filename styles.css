@@ -592,6 +592,17 @@ form {
 
 /* popup styling */
 
+#modal-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(15px);
+}
+
 #details-popup {
   width: 343px;
   height: 620px;
@@ -648,6 +659,11 @@ form {
 
 .demoButtons a {
   text-decoration: none;
+}
+
+.message-mob {
+  margin-left: 15px;
+  color: red;
 }
 
 @media screen and (min-width: 768px) {
@@ -975,5 +991,10 @@ form {
 
   .extras {
     width: 90%;
+  }
+
+  .message-desk {
+    margin-left: 15px;
+    color: red;
   }
 }
