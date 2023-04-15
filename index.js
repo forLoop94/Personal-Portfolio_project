@@ -342,7 +342,7 @@ function isValid(str) {
   return true;
 }
 
-// ...Additional requirements - if email is in uppercase, change it in the email to lower case so the user can use at once...
+// If email is in uppercase, change it in the email to lower case so the user can use at once...
 
 function emailToLowercsae(str) {
   return str.toLowerCase();
@@ -394,15 +394,15 @@ const storedMobileData = JSON.parse(localStorage.getItem('mobileData'));
 const storedDesktopData = JSON.parse(localStorage.getItem('desktopData'));
 
 window.addEventListener('load', () => {
- // Check if the form data object is found on localStorage
-if (storedMobileData) {
-  mobileName.value = storedMobileData.name;
-  emailMob.value = storedMobileData.email;
-  mobileText.value = storedMobileData.text;
-}
-if (storedDesktopData) {
-  desktopName.value = storedDesktopData.name;
-  email.value = storedDesktopData.email;
-  desktopText.value = storedDesktopData.text;
-}
+  // Check if the form data object is found on localStorage
+  if (storedMobileData) {
+    mobileName.value = storedMobileData.name;
+    emailMob.value = storedMobileData.email;
+    mobileText.value = storedMobileData.text;
+  }
+  if (storedDesktopData) {
+    desktopName.value = storedDesktopData.name;
+    email.value = storedDesktopData.email;
+    desktopText.value = storedDesktopData.text;
+  }
 });
