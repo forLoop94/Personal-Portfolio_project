@@ -394,10 +394,15 @@ const storedMobileData = JSON.parse(localStorage.getItem('mobileData'));
 const storedDesktopData = JSON.parse(localStorage.getItem('desktopData'));
 
 window.addEventListener('load', () => {
+ // Check if the form data object is found on localStorage
+if (storedMobileData) {
   mobileName.value = storedMobileData.name;
   emailMob.value = storedMobileData.email;
   mobileText.value = storedMobileData.text;
+}
+if (storedDesktopData) {
   desktopName.value = storedDesktopData.name;
   email.value = storedDesktopData.email;
   desktopText.value = storedDesktopData.text;
+}
 });
