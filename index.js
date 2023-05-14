@@ -122,15 +122,15 @@ cardsContainer.className = 'grid-container';
 
 const projectData = [
   {
-    name: 'Project One',
-    description: 'You need to update the main page so that the projects section is created dynamically using the information stored in that JavaScript object. Remember, all of the HTML in that section is created when the page loads.',
+    name: 'To-do list',
+    description: 'This To Do list is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete when you are done. It also allows you to edit and delete a tasks as you want. It was built using Webpack, HTML, CSS',
     'Featured image': {
       mobile: {
-        src: 'images/Img-Placeholder(1).png',
+        src: 'images/Screenshot_todo-list.png',
         alt: '',
       },
       desktop: {
-        src: 'images/Img-Placeholder(2).png',
+        src: 'images/Screenshot_todo-list.png',
         alt: '',
       },
     },
@@ -139,20 +139,20 @@ const projectData = [
       tech2: 'HTML',
       tech3: 'Javascript',
     },
-    'Link to live version': '#',
-    'Link to source': '#',
+    'Link to live version': 'https://forloop94.github.io/To-do-list/dist/',
+    'Link to source': 'https://github.com/forLoop94/To-do-list',
   },
 
   {
-    name: 'Project Two',
-    description: 'You need to update the main page so that the projects section is created dynamically using the information stored in that JavaScript object. Remember, all of the HTML in that section is created when the page loads.',
+    name: 'Conference Page',
+    description: 'African Fiction Festival 2023 is a website that displays information about the African Fiction Festival that will be holding for the first time in Abuja, Nigeria. It was built using HTML, CSS and Javascript.',
     'Featured image': {
       mobile: {
-        src: 'images/Img-Placeholder(1).png',
+        src: 'images/Screenshot_AFF-mobile.png',
         alt: '',
       },
       desktop: {
-        src: 'images/Img-Placeholder(3).png',
+        src: 'images/Screenshot_AFF-desktop.png',
         alt: '',
       },
     },
@@ -161,8 +161,8 @@ const projectData = [
       tech2: 'HTML',
       tech3: 'Javascript',
     },
-    'Link to live version': '#',
-    'Link to source': '#',
+    'Link to live version': 'https://forloop94.github.io/Conference_Page/',
+    'Link to source': 'https://github.com/forLoop94/Conference_Page',
   },
   {
     name: 'Project Three',
@@ -257,16 +257,16 @@ function recurringCards(arr) {
     const cardDetails = arr[i];
     card.innerHTML = `
     <img src=${cardDetails['Featured image'].mobile.src} alt=${cardDetails['Featured image'].alt} width class="project-cards-mobile">
-    <img class='project-cards-desktop' src=${cardDetails['Featured image'].desktop.src} alt=${cardDetails['Featured image'].alt}>
+    <img class='project-cards-desktop' src=${cardDetails['Featured image'].mobile.src} alt=${cardDetails['Featured image'].alt}>
     <div class="image-text flex">
       <div>
-        <h3 class="bold-text flex">${cardDetails.name}</h3>
+        <h3 class="bold-text flex"></h3>
       </div>
-      <p class="works-description">${cardDetails.description}</p>
+      <p class="works-description"></p>
       <ul class="competencies flex">
-        <li>${cardDetails.technologies.tech1}</li>
-        <li>${cardDetails.technologies.tech2}</li>
-        <li>${cardDetails.technologies.tech3}</li>
+        <li></li>
+        <li></li>
+        <li></li>
       </ul>
     </div>
     <div><button type="button" class="btn-type-b flex">See project</button></div>`;
@@ -295,15 +295,16 @@ function loopButton(arr, brr) {
             <ul class="competencies flex popup-technologies">
               <li>${details.technologies.tech1}</li>
               <li>${details.technologies.tech2}</li>
-              <li>${details.technologies.tech2}</li>
+              <li>${details.technologies.tech3}</li>
             </ul>
             <div class="popup-body flex">
-              <img src="images/Snapshoot Portfolio.png" alt="" class="popup-image">
+              <img src=${details['Featured image'].mobile.src} alt="" class="popup-image project-cards-mobile">
+              <img src=${details['Featured image'].desktop.src} alt="" class="popup-image popup-desktop">
               <div class="side-text">
                 <div class="works-description popup-text">${details.description}</div>
                 <div class="demoButtons flex">
                   <a href=${details['Link to live version']} class="btn-type-a">See live <img src="images/export-icon.png" alt="" width='13'></a>
-                  <a href=${details['Link to live version']} class="btn-type-a">See source <img src="images/github-icon.png" alt="" width='13'></a>
+                  <a href=${details['Link to source']} class="btn-type-a">See source <img src="images/github-icon.png" alt="" width='13'></a>
                 </div>
               </div>
             </div>`;
