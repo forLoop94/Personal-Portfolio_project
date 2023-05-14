@@ -613,7 +613,7 @@ form {
   top: 0;
   z-index: 2;
   margin: 1px 16.5px;
-  box-shadow: 0px 0px 5px 5px rgb(240, 240, 240);
+  box-shadow: 0 0 5px 5px rgb(240, 240, 240);
 }
 
 .popup-header {
@@ -987,7 +987,7 @@ form {
     margin: 0;
   }
 
-  .popup-desktop{
+  .popup-desktop {
     display: flex;
     width: 60%;
   }
