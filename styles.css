@@ -1,3 +1,9 @@
+:root {
+  --blue: #3778c2;
+  --yellow: #F4E900;
+  --deep_ash:
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +27,8 @@ header {
   top: 0;
   height: 48px;
   width: 375px;
-  background: #3c3a39;
+  /* background: #3c3a39; */
+  background: rgb(255, 255, 255, 0.6);
   justify-content: space-between;
 }
 
@@ -61,7 +68,8 @@ header {
   height: 590px;
   width: 375px;
   padding: 120px 24px 120px 24px;
-  background: #1c1a19;
+  /* background: #1c1a19; */
+  background: linear-gradient(90deg, white, rgb(91, 88, 88));
 }
 
 h2 {
@@ -154,7 +162,7 @@ h2 {
 }
 
 .title {
-  margin: 120px 24px 0 24px;
+  margin: 20px 24px 0 24px;
   width: 327px;
   height: 83px;
   font-family: 'Crete Round', sans-serif;
@@ -785,14 +793,6 @@ form {
     width: 100%;
     padding: 7rem;
   }
-
-  /* .title-section {
-    display: flex;
-  }
-
-  .works-title-block {
-    padding-bottom: 7rem;
-  } */
 
   .title {
     display: inline;
