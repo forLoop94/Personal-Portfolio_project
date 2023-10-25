@@ -1,51 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Charles Andrews Portfolio Website</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Crete Round' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-  <script type="module" defer src="index.js"></script>
-</head>
-<body>
-  <main data-main>
-    <header class="flex">
-      <a href="#" class="logo">My Logo</a>
-      <nav>
-        <div id="menu-btn" data-menu>
-          <div class="menu-bar"></div>
-          <div class="menu-bar"></div>
-          <div class="menu-bar"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charles Andrews Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Crete Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <script type="module" defer src="index.js"></script>
+  </head>
+  <body>
+    <main data-main>
+      <header class="flex">
+        <a href="#" class="logo">
+          <p class="name"><span class="logo-left">Charles</span><span class="logo-right">Andrews</span></p>
+        </a>
+        <nav>
+          <div id="menu-btn" data-menu>
+            <div class="menu-bar"></div>
+            <div class="menu-bar"></div>
+            <div class="menu-bar"></div>
+          </div>
+        </nav>
+        <nav class="desktop-nav flex">
+          <ul class="desktop-nav-content">
+            <li><a href="#headline-section">Home</a></li>
+            <li><a href="#works-section">Portfolio</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#contact-desktop">Contact</a></li>
+            <li>
+              <a href="https://mail.google.com"
+                ><img
+                  src="images/Icon - Mail.png"
+                  alt="Charles Andrews Email"
+                  class="mail-icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section id="headline-section">
+        <div class="headline-left">
+          <h2 class="greetings-header">Hey There. I'm Charles.</h2>
+          <div id="introduction-text" class="flex">
+             A Software Developer
+          </div>
+          <p id="brief-description" class="healine-desc">
+            I can help you build a product , feature or website. Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hesitate to contact me.
+          </p>
+          <div class="social-media">
+            <ul id="contact" class="flex">
+              <li>
+                <a href="#">
+                  <img
+                    src="images/github-icon.png"
+                    alt="Charles Andrews Github"
+                    width="19.99px"
+                    height="20px"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="contact-mode">
+                    <div class="linkedIn flex">
+                      <div id="linkedIn-i-o" class="flex">
+                        <img
+                          src="images/linkedIn_dot.png"
+                          alt="Charles Andrews LinkedIn(letter dot)"
+                          width="4.97px"
+                          height="4.97px"
+                        />
+                        <img
+                          src="images/linkedIn_i.png"
+                          alt="Charles Andrews LinkedIn(letter I)"
+                          width="4.97px"
+                          height="13.72px"
+                        />
+                      </div>
+                      <img
+                        src="images/linkedIn_n.png"
+                        alt="Charles Andrews LinkedIn(letter N)"
+                        width="12.71px"
+                        height="16.97px"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="images/angellist.png"
+                    alt="Charles Andrews Angellist"
+                    width="14.97px"
+                    height="20px"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="images/twitter.png"
+                    alt="Charles Andrews Twitter"
+                    width="19.99px"
+                    height="19.96px"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="images/medium-icon.png"
+                    alt="Charles Andrews Medium"
+                    width="20px"
+                    height="16px"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </nav>
-      <nav class="desktop-nav flex">
-        <ul class="desktop-nav-content">
-          <li><a href="#works-section">Portfolio</a></li>
-          <li><a href="#about-section">About</a></li>
-          <li><a href="#contact-desktop">Contact</a></li>
-          <li><a href="https://mail.google.com"><img src="images/Icon - Mail.png" alt="Charles Andrews Email" class="mail-icon"></a></li>
-        </ul>
-      </nav>
-    </header>
-    <section id="headline-section">
-      <h2 class="greetings-header">Hey There. I'm Charles.</h2>
-      <div id="introduction-text" class="flex">I'm a Software Developer</div>
-      <p id="brief-description" class="healine-desc">
-        I can help you build a product , feature or website. Look through some of my work and experience! If you like
-        what you see and have a project you need coded,
-        don’t hesitate to contact me.
-      </p>
-      <div class="social-media">
-        <ul id="contact" class="flex">
+        <div class="headline-right">
+          <img src="images/prof_no_bg.png" alt="Charles" class="headline-img">
+        </div>
+        <img class="right-side-image" src="images/Group.png" alt="" />
+        <!-- <img src="images/Desktop-healine-image.png" alt="" class="desktop-healine-image flex"> -->
+      </section>
+      <section id="works-section"></section>
+      <section class="about-me-section flex" id="about-section">
+        <h2 class="about-me-title flex">About me</h2>
+        <div>
+          <p>
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hesitate to contact me.
+          </p>
+        </div>
+        <div>
+          <a target="_blank" href="https://docs.google.com/document/d/1iS__RgUgh-2Q3HUIBR_MdUMaHZlPn7QGxUwwlZa5Hdg/edit?usp=sharing" class="resume-link">
+            <button type="button" class="about-me-btn flex">Get my resume</button>
+          </a>
+        </div>
+        <img
+          class="right-side-image-b"
+          src="images/illustration-about-me-mobile.png"
+          alt=""
+        />
+        <img
+          class="right-side-image-b-desktop"
+          src="images/about-image-desktop.png"
+          alt=""
+        />
+        <img class="hor-line" src="images/Devider.png" alt="" />
+        <div class="thematic-break"></div>
+        <div class="list-container">
+          <ul class="about-me-cat">
+            <li class="language">
+              Languages
+              <div class="category-list-container">
+                <div class="category-list">Javascript</div>
+                <div class="category-list">Ruby</div>
+                <div class="category-list">CSS</div>
+                <div class="category-list">HTML</div>
+              </div>
+            </li>
+            <li class="frameworks">
+              Frameworks
+              <div class="category-list-container">
+                <div class="category-list">React.js</div>
+                <div class="category-list">Ruby on Rails</div>
+                <div class="category-list">RSpec</div>
+                <div class="category-list">Capybara</div>
+                <div class="category-list">Selenium</div>
+              </div>
+            </li>
+            <li class="skills">
+              Skills
+              <div class="category-list-container">
+                <div class="category-list">Database Management</div>
+                <div class="category-list">Version Control</div>
+                <div class="category-list">CLI</div>
+                <div class="category-list">API Design</div>
+                <div class="category-list">Web Development</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="reg-form" id="contact-section">
+        <div class="form-body flex">
+          <div class="header-text flex">
+            <p id="form-text-mob">
+              I'm always interested in hearing about new projects, so if you'd
+              like to chat please get in touch.
+            </p>
+          </div>
+          <form
+            action="https://formspree.io/f/xknaqwwd"
+            method="post"
+            class="form-mobile"
+          >
+            <input
+              type="text"
+              class="text-field"
+              placeholder="Full name"
+              min="1"
+              max="30"
+              name="Name"
+              required
+            />
+            <input
+              type="email"
+              id="e-mail-mob"
+              class="text-field"
+              placeholder="Email address"
+              name="Email address"
+              required
+            />
+            <textarea
+              name="Bio"
+              id="bio"
+              class="text-field"
+              cols="30"
+              rows="5"
+              minlength="1"
+              maxlength="500"
+              placeholder="Write me something"
+              required
+            ></textarea>
+            <small class="message-mob"></small>
+            <div class="form-btn flex">
+              <button type="submit" class="about-me-btn">Get in touch</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="form-desktop flex" id="contact-desktop">
+        <p class="form-text">
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </p>
+        <form
+          class="main-form"
+          action="https://formspree.io/f/xknaqwwd"
+          method="post"
+        >
+          <label for="Name">Name</label>
+          <input
+            type="text"
+            class="text-field"
+            placeholder="Full name"
+            min="1"
+            max="30"
+            name="Name"
+            id="Name"
+            required
+          />
+          <label for="emai">Email</label>
+          <input
+            type="email"
+            id="e-mail"
+            class="text-field"
+            placeholder="Email address"
+            name="email"
+            id="email"
+            required
+          />
+          <label for="bio">Short Text</label>
+          <textarea
+            name="Bio"
+            id="bio"
+            class="text-field"
+            cols="30"
+            rows="5"
+            minlength="1"
+            maxlength="500"
+            placeholder="Write me something"
+            required
+          ></textarea>
+          <small class="message-desk"></small>
+          <div class="form-btn flex">
+            <button type="submit" class="about-me-btn" name="submit">
+              Get in touch
+            </button>
+          </div>
+        </form>
+      </section>
+      <footer class="form-contacts flex">
+        <ul id="footer-contact" class="flex">
           <li>
             <a href="#">
-              <img src="images/github-icon.png" alt="Charles Andrews Github" width="19.99px" height="20px">
+              <img
+                src="images/git-icon.png"
+                alt="Charles Andrews Github"
+                width="19.99px"
+                height="20px"
+              />
             </a>
           </li>
           <li>
@@ -53,151 +322,62 @@
               <div class="contact-mode">
                 <div class="linkedIn flex">
                   <div id="linkedIn-i-o" class="flex">
-                    <img src="images/linkedIn_dot.png" alt="Charles Andrews LinkedIn(letter dot)" width="4.97px" height="4.97px">
-                    <img src="images/linkedIn_i.png" alt="Charles Andrews LinkedIn(letter I)" width="4.97px" height="13.72px">
+                    <img
+                      src="images/LI(dot).png"
+                      alt="Charles Andrews LinkedIn(letter dot)"
+                      width="4.97px"
+                      height="4.97px"
+                    />
+                    <img
+                      src="images/LI(i).png"
+                      alt="Charles Andrews LinkedIn(letter I)"
+                      width="4.97px"
+                      height="13.72px"
+                    />
                   </div>
-                  <img src="images/linkedIn_n.png" alt="Charles Andrews LinkedIn(letter N)" width="12.71px" height="16.97px">
+                  <img
+                    src="images/LI(n).png"
+                    alt="Charles Andrews LinkedIn(letter N)"
+                    width="12.71px"
+                    height="16.97px"
+                  />
                 </div>
               </div>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="images/angellist.png" alt="Charles Andrews Angellist" width="14.97px" height="20px">
+              <img
+                src="images/angellist-icon.png"
+                alt="Charles Andrews Angellist"
+                width="14.97px"
+                height="20px"
+              />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="images/twitter.png" alt="Charles Andrews Twitter" width="19.99px" height="19.96px">
+              <img
+                src="images/twitter-icon.png"
+                alt="Charles Andrews Twitter"
+                width="19.99px"
+                height="19.96px"
+              />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="images/medium-icon.png" alt="Charles Andrews Medium" width="20px" height="16px">
+              <img
+                src="images/Black-medium-icon.png"
+                alt="Charles Andrews Medium"
+                width="20px"
+                height="16px"
+              />
             </a>
           </li>
         </ul>
-      </div>
-      <img class="right-side-image" src="images/Group.png" alt="">
-      <img src="images/Desktop-healine-image.png" alt="" class="desktop-healine-image flex">
-    </section>
-    <section id="works-section">
-    </section>
-    <section class="about-me-section flex" id="about-section">
-      <h2 class="about-me-title flex">About me</h2>
-      <div>
-        <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my
-          work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
-        </p>
-      </div>
-      <div><button type="button" class="about-me-btn flex">Get my resume</button></div>
-      <img class="right-side-image-b" src="images/illustration-about-me-mobile.png" alt="">
-      <img class="right-side-image-b-desktop" src="images/about-image-desktop.png" alt="">
-      <img class="hor-line" src="images/Devider.png" alt="">
-      <div class="thematic-break"></div>
-      <div class="list-container">
-        <ul class="about-me-cat">
-          <li class="language">
-            Languages
-            <div class="category-list-container">
-              <div class="category-list">Javascript</div>
-              <div class="category-list">Ruby</div>
-              <div class="category-list">CSS</div>
-              <div class="category-list">HTML</div>
-            </div>
-          </li>
-          <li class="frameworks">
-            Frameworks
-            <div class="category-list-container">
-              <div class="category-list">React.js</div>
-              <div class="category-list">Ruby on Rails</div>
-              <div class="category-list">RSpec</div>
-              <div class="category-list">Capybara</div>
-              <div class="category-list">Selenium</div>
-            </div>
-          </li>
-          <li class="skills">
-            Skills
-            <div class="category-list-container">
-              <div class="category-list">Database Management</div>
-              <div class="category-list">Version Control</div>
-              <div class="category-list">CLI</div>
-              <div class="category-list">API Design</div>
-              <div class="category-list">Web Development</div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="reg-form" id="contact-section">
-      <div class="form-body flex">
-        <div class="header-text flex">
-          <p id="form-text-mob">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-        </div>
-        <form action="https://formspree.io/f/xknaqwwd" method="post" class="form-mobile">
-          <input type="text" class="text-field" placeholder="Full name" min="1" max="30" name="Name" required>
-          <input type="email" id="e-mail-mob" class="text-field" placeholder="Email address" name="Email address" required>
-          <textarea name="Bio" id="bio" class="text-field" cols="30" rows="5" minlength="1" maxlength="500" placeholder="Write me something" required></textarea>
-          <small class="message-mob"></small>
-          <div class="form-btn flex">
-              <button type="submit" class="about-me-btn">Get in touch</button>
-          </div>
-        </form>
-      </div>
-    </section>
-    <section class="form-desktop flex" id="contact-desktop">
-      <p class="form-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-      <form class="main-form" action="https://formspree.io/f/xknaqwwd" method="post">
-        <label for="Name">Name</label>
-        <input type="text" class="text-field" placeholder="Full name" min="1" max="30" name="Name" id="Name" required>
-        <label for="emai">Email</label>
-        <input type="email" id="e-mail" class="text-field" placeholder="Email address" name="email" id="email"  required>
-        <label for="bio">Short Text</label>
-        <textarea name="Bio" id="bio" class="text-field" cols="30" rows="5" minlength="1" maxlength="500" placeholder="Write me something" required></textarea>
-        <small class="message-desk"></small>
-        <div class="form-btn flex">
-            <button type="submit" class="about-me-btn" name="submit">Get in touch</button>
-        </div>
-      </form>
-    </section>
-    <footer class="form-contacts flex">
-      <ul id="footer-contact" class="flex">
-        <li>
-          <a href="#">
-            <img src="images/git-icon.png" alt="Charles Andrews Github" width="19.99px" height="20px">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <div class="contact-mode">
-              <div class="linkedIn flex">
-                <div id="linkedIn-i-o" class="flex">
-                  <img src="images/LI(dot).png" alt="Charles Andrews LinkedIn(letter dot)" width="4.97px" height="4.97px">
-                  <img src="images/LI(i).png" alt="Charles Andrews LinkedIn(letter I)" width="4.97px" height="13.72px">
-                </div>
-                <img src="images/LI(n).png" alt="Charles Andrews LinkedIn(letter N)" width="12.71px" height="16.97px">
-              </div>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="images/angellist-icon.png" alt="Charles Andrews Angellist" width="14.97px" height="20px">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="images/twitter-icon.png" alt="Charles Andrews Twitter" width="19.99px" height="19.96px">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="images/Black-medium-icon.png" alt="Charles Andrews Medium" width="20px" height="16px">
-          </a>
-        </li>
-      </ul>
-    </footer>
-    <div class="footer-divider flex"><div></div></div>
-  </main>
-</body>
+      </footer>
+      <div class="footer-divider flex"><div></div></div>
+    </main>
+  </body>
 </html>
