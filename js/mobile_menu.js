@@ -24,13 +24,24 @@ const menuDisplay = () => {
 
   const item1 = document.createElement('li');
   const portfolio = document.createElement('a');
-  portfolio.href = '#works-section';
+  portfolio.href = '#projects-wrapper';
   portfolio.className = 'menu-content';
   portfolio.textContent = 'Portfolio';
   item1.appendChild(portfolio);
   portfolio.addEventListener('click', () => {
     modal.style.visibility = 'hidden';
   });
+
+  const item1b = document.createElement('li');
+  const article = document.createElement('a');
+  article.href = '#works-section';
+  article.className = 'menu-content';
+  article.textContent = 'Recent Article';
+  item1b.appendChild(article);
+  article.addEventListener('click', () => {
+    modal.style.visibility = 'hidden';
+  });
+
 
   const item2 = document.createElement('li');
   const about = document.createElement('a');
@@ -54,6 +65,7 @@ const menuDisplay = () => {
 
   menuList.appendChild(item0);
   menuList.appendChild(item1);
+  menuList.appendChild(item1b);
   menuList.appendChild(item2);
   menuList.appendChild(item3);
   modal.appendChild(menuList);

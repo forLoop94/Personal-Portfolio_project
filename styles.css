@@ -749,6 +749,7 @@ form {
     position: relative;
     padding: 170px 143px;
     display: flex;
+    border: 2px solid var(--blue);
   }
 
   .headline-right {
@@ -848,9 +849,9 @@ form {
   }
 
   #works-section {
-    background-color: white;
+    background-color: rgb(194, 188, 188);
     width: 100%;
-    padding: 7rem;
+    padding: 4rem;
   }
 
   .title {
@@ -923,8 +924,8 @@ form {
   }
 
   .grid-item:hover {
-    transform: scale(1.1);
-    transition: all 2s ease-out;
+    transform: scale(1.01);
+    transition: all 1s ease-out;
   }
 
   .btn-type-b {
@@ -1057,9 +1058,10 @@ form {
 
   .project-cards-desktop {
     display: grid;
-    width: 100%;
+    width: 400px;
     object-fit: cover;
-    height: 400px;
+    height: 550px;
+    border-radius: 10px;
   }
 
   .extras {

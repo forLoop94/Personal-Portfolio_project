@@ -21,27 +21,6 @@ const projectData = [
     'Link to source': 'https://github.com/forLoop94/Rails_budget_app',
   },
   {
-    name: 'Medimate',
-    description: "A React on Rails app used for reserving doctors' appointments. Users can also add and delete their own doctors",
-    'Featured image': {
-      mobile: {
-        src: 'images/doc2.png',
-        alt: '',
-      },
-      desktop: {
-        src: 'images/doc2.png',
-        alt: '',
-      },
-    },
-    technologies: {
-      tech1: 'Rails',
-      tech2: 'React',
-      tech3: 'PostgreSQL',
-    },
-    'Link to live version': '#',
-    'Link to source': 'https://github.com/mailsg/medimate-frontend',
-  },
-  {
     name: 'Africa',
     description: "The African app lists all African countries by oficial names. The user can click on any country to see see extra information like capital, currency, population etc. Alternatively, the user can also decide to type a country's name in the search bar and the country will be available below",
     'Featured image': {
@@ -84,25 +63,46 @@ const projectData = [
     'Link to source': 'https://github.com/forLoop94/book-store',
   },
   {
-    name: 'To-do list',
-    description: 'This To Do list is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete when you are done. It also allows you to edit and delete a tasks as you want. It was built using Webpack, HTML, CSS',
+    name: 'Medimate',
+    description: "A React on Rails app used for reserving doctors' appointments. Users can also add and delete their own doctors",
     'Featured image': {
       mobile: {
-        src: 'images/Screenshot_todo-list.png',
+        src: 'images/doc-app.png',
         alt: '',
       },
       desktop: {
-        src: 'images/Screenshot_todo-list.png',
+        src: 'images/doc-app.png',
         alt: '',
       },
     },
     technologies: {
-      tech1: 'CSS',
-      tech2: 'HTML',
-      tech3: 'Javascript',
+      tech1: 'Rails',
+      tech2: 'React',
+      tech3: 'PostgreSQL',
     },
-    'Link to live version': 'https://forloop94.github.io/To-do-list/dist/',
-    'Link to source': 'https://github.com/forLoop94/To-do-list',
+    'Link to live version': 'https://github.com/mailsg/medimate-frontend',
+    'Link to source': 'https://github.com/mailsg/medimate-frontend',
+  },
+  {
+    name: 'Space-travellers-hub',
+    description: 'Space-Travelers-Hub is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    'Featured image': {
+      mobile: {
+        src: 'images/rockets.png',
+        alt: '',
+      },
+      desktop: {
+        src: 'images/rockets.png',
+        alt: '',
+      },
+    },
+    technologies: {
+      tech1: 'React',
+      tech2: 'Redux',
+      tech3: 'Rest API | CSS',
+    },
+    'Link to live version': 'https://try-out--neon-croissant-69c240.netlify.app/',
+    'Link to source': 'https://github.com/unorjikingsley/Space-Travelers-Hub-Capstone-2',
   },
   {
     name: 'Conference Page',
