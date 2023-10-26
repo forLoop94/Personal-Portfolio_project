@@ -28,7 +28,7 @@ header {
   width: 375px;
   background: rgb(0, 34, 68, 0.8);
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
 }
 
 .logo {
@@ -709,6 +709,10 @@ form {
   width: 20px;
   height: 20px;
   color: white;
+}
+
+.fa-bars::before {
+  font-size: 28px;
 }
 
 .fa:hover {
