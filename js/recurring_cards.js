@@ -16,4 +16,4 @@ function recurringCards(arr) {
   return cardsContainer;
 }
 
-export { recurringCards, cardsContainer } ;
+export { recurringCards, cardsContainer };

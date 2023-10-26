@@ -1,7 +1,7 @@
 const projectData = [
   {
     name: 'Thrifty',
-    description: 'Thrifty is full-stack budget app that helps users keep track of their daily expenses. It has a simple authentication system where users must Sign up or log in to have access. Users can partion their purchases in categories and add appropriate transactions in each category. They can delete categories and transactions. The category page also displays the total amount of money spent on transaction in that category amongst other features.',
+    description: 'Thrifty is full-stack budget app that helps users keep track of their daily expenses. The See source button will take you to GitHub where you can read more about this project.',
     'Featured image': {
       mobile: {
         src: 'images/budget.png',
@@ -13,16 +13,16 @@ const projectData = [
       },
     },
     technologies: {
-      tech1: 'Rails | Ruby | PostgreSQL',
-      tech2: '',
-      tech3: 'Javascript',
+      tech1: 'Rails | Ruby',
+      tech2: 'CSS',
+      tech3: 'PostgreSQL',
     },
     'Link to live version': 'https://thrifty-ma5c.onrender.com',
     'Link to source': 'https://github.com/forLoop94/Rails_budget_app',
   },
   {
     name: 'Africa',
-    description: "The African app lists all African countries by oficial names. The user can click on any country to see see extra information like capital, currency, population etc. Alternatively, the user can also decide to type a country's name in the search bar and the country will be available below",
+    description: 'The African app lists all African countries by oficial names. The user can click on any country to see see extra information like capital, currency, population etc. The See source button will take you to GitHub where you can read more about this project.',
     'Featured image': {
       mobile: {
         src: 'images/africa.png',
@@ -43,7 +43,7 @@ const projectData = [
   },
   {
     name: 'Book Store',
-    description: 'Book Store is a website for storing books. The users will be able to display a list of books, add and delete books as they like. This UI will be built using React and I intend to learn how to use React and Redux in the context of a real application.',
+    description: 'Book Store is a website for storing books. The users will be able to display a list of books, add and delete books as they like. The See source button will take you to GitHub where you can read more about this project.',
     'Featured image': {
       mobile: {
         src: 'images/book_store.png',
@@ -64,7 +64,7 @@ const projectData = [
   },
   {
     name: 'Medimate',
-    description: "A React on Rails app used for reserving doctors' appointments. Users can also add and delete their own doctors",
+    description: "A React on Rails app used for reserving doctors' appointments. Users can also add and delete their own doctors. The See source button will take you to GitHub where you can read more about this project",
     'Featured image': {
       mobile: {
         src: 'images/doc-app.png',
@@ -85,7 +85,7 @@ const projectData = [
   },
   {
     name: 'Space-travellers-hub',
-    description: 'Space-Travelers-Hub is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    description: 'This app provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. The See source button will take you to GitHub where you can read more about this project.',
     'Featured image': {
       mobile: {
         src: 'images/rockets.png',
@@ -106,14 +106,14 @@ const projectData = [
   },
   {
     name: 'Conference Page',
-    description: 'African Fiction Festival 2023 is a website that displays information about the African Fiction Festival that will be holding for the first time in Abuja, Nigeria. It was built using HTML, CSS and Javascript.',
+    description: 'African Fiction Festival 2023 is a website that displays information about the African Fiction Festival. The See source button will take you to GitHub where you can read more about this project.',
     'Featured image': {
       mobile: {
         src: 'images/Screenshot_AFF-mobile.png',
         alt: '',
       },
       desktop: {
-        src: 'images/Screenshot_AFF-desktop.png',
+        src: 'images/Screenshot_AFF-mobile.png',
         alt: '',
       },
     },

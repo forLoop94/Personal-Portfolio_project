@@ -19,13 +19,13 @@ function loopButton(arr, brr) {
               <li>${details.technologies.tech3}</li>
             </ul>
             <div class="popup-body flex">
-              <img src=${details['Featured image'].mobile.src} alt="" class="popup-image project-cards-mobile">
+              <img src=${details['Featured image'].mobile.src} alt="" class="popup-image popup-mobile">
               <img src=${details['Featured image'].desktop.src} alt="" class="popup-image popup-desktop">
               <div class="side-text">
                 <div class="works-description popup-text">${details.description}</div>
                 <div class="demoButtons flex">
-                  <a href=${details['Link to live version']} class="btn-type-a">See live <img src="images/export-icon.png" alt="" width='13'></a>
-                  <a href=${details['Link to source']} class="btn-type-a">See source <img src="images/github-icon.png" alt="" width='13'></a>
+                  <a target="_blank" href=${details['Link to live version']} class="btn-type-a">See live <img src="images/export-icon.png" alt="" width='13'></a>
+                  <a target="_blank" href=${details['Link to source']} class="btn-type-a">See source <img src="images/github-icon.png" alt="" width='13'></a>
                 </div>
               </div>
             </div>`;

@@ -42,3 +42,5 @@ const reservedProjects = [
     'Link to source': 'https://github.com/forLoop94/To-do-list',
   },
 ];
+
+export default reservedProjects;

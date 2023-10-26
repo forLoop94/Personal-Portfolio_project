@@ -1,10 +1,8 @@
-import projectData from "./projects_data.js";
-import { cardsContainer, recurringCards } from "./recurring_cards.js";
-import menuDisplay from "./mobile_menu.js";
-import { uniqueCard, worksDesktop, workSection } from "./unique_card.js";
-import loopButton from "./card_popup.js";
-
-console.log(projectData);
+import projectData from './projects_data.js';
+import { cardsContainer, recurringCards } from './recurring_cards.js';
+import menuDisplay from './mobile_menu.js';
+import { uniqueCard, worksDesktop, workSection } from './unique_card.js';
+import loopButton from './card_popup.js';
 
 // Mobile menu
 

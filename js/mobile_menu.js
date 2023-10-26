@@ -42,7 +42,6 @@ const menuDisplay = () => {
     modal.style.visibility = 'hidden';
   });
 
-
   const item2 = document.createElement('li');
   const about = document.createElement('a');
   about.href = '#about-section';

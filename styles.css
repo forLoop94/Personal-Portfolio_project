@@ -1,5 +1,5 @@
 :root {
-  --blue: #002244;
+  --blue: #024;
   --orange: #ff6b00;
 }
 
@@ -45,7 +45,7 @@ header {
 
 .logo p {
   background-color: white;
-  color: #002244;
+  color: #024;
   letter-spacing: 2px;
   padding: 2px;
   margin: 0;
@@ -75,7 +75,7 @@ header {
   height: 590px;
   width: 375px;
   padding: 120px 24px 120px 24px;
-  background: #002244;
+  background: #024;
 }
 
 h2 {
@@ -177,7 +177,7 @@ h2 {
   font-size: 40px;
   line-height: 52px;
   align-items: center;
-  color: #002244;
+  color: #024;
 }
 
 .crossline {
@@ -356,7 +356,7 @@ h2 {
   position: relative;
   width: 375px;
   height: 1810px;
-  background-color: #002244;
+  background-color: #024;
   flex-direction: column;
   padding: 120px 24px 24px 24px;
 }
@@ -611,7 +611,8 @@ form {
   margin-bottom: 20px;
 }
 
-#modal-delete:hover, .menu-content:hover {
+#modal-delete:hover,
+.menu-content:hover {
   color: var(--orange);
 }
 
@@ -645,6 +646,10 @@ form {
 .popup-header {
   justify-content: space-between;
   padding-bottom: 20px;
+}
+
+.popup-mobile {
+  height: 180px;
 }
 
 #popup-close {
@@ -716,13 +721,15 @@ form {
 
 @keyframes slideNames {
   0% {
-      transform: translateX(0);
+    transform: translateX(0);
   }
+
   50% {
-      transform: translateX(-60px); /* Adjust the distance as needed */
+    transform: translateX(-60px); /* Adjust the distance as needed */
   }
+
   100% {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
@@ -878,7 +885,7 @@ form {
     width: 100%;
     padding-bottom: 1.5rem;
     display: flex;
-    margin-top: 7rem;
+    margin-top: 4rem;
   }
 
   .side-text {
@@ -1014,6 +1021,7 @@ form {
   .right-side-image-b,
   .works-card,
   .right-side-image,
+  .popup-mobile,
   #menu-btn {
     display: none;
   }
@@ -1059,9 +1067,8 @@ form {
   .project-cards-desktop {
     display: grid;
     width: 400px;
-    object-fit: cover;
     height: 550px;
-    border-radius: 10px;
+    border-radius: 5px;
   }
 
   .extras {
