@@ -24,17 +24,11 @@ header {
   position: fixed;
   z-index: 1;
   top: 0;
-  height: 50px;
+  height: 60px;
   width: 375px;
   background: rgb(0, 34, 68, 0.8);
   justify-content: space-between;
-  padding: 0.5rem 1rem;
-}
-
-#menu-btn {
-  width: 16px;
-  top: 0;
-  left: 4px;
+  padding: 1rem;
 }
 
 .logo {
@@ -74,17 +68,6 @@ header {
   border-radius: 5px;
   font-size: 14px;
   animation: slideNames 20s linear infinite reverse;
-}
-
-.menu-bar {
-  width: 16px;
-  height: 2px;
-  background-color: #fff;
-  margin: 2px 0;
-}
-
-.menu-bar:hover {
-  background-color: #acb7c3;
 }
 
 #headline-section {
@@ -336,6 +319,7 @@ h2 {
 .project-cards-mobile {
   width: 100%;
   height: 400px;
+  object-fit: cover;
 }
 
 .btn-type-b {
@@ -590,7 +574,7 @@ form {
 #custom-modal {
   width: 375px;
   height: 755px;
-  background-color: #3c3a39;
+  background-color: var(--blue);
   position: fixed;
   top: 0;
   padding: 20px;
@@ -601,7 +585,7 @@ form {
   display: flex;
   justify-content: flex-end;
   padding-top: 20px;
-  font-size: 20px;
+  font-size: 32px;
   color: #cdcac9;
   font-family: 'Inter', sans-serif;
   cursor: pointer;
@@ -625,6 +609,10 @@ form {
   border-bottom: 1px solid #6f6c6b;
   padding: 5px;
   margin-bottom: 20px;
+}
+
+#modal-delete:hover, .menu-content:hover {
+  color: var(--orange);
 }
 
 /* end of modal styling */
@@ -687,6 +675,7 @@ form {
 
 .popup-image {
   margin: 15px 0;
+  object-fit: cover;
 }
 
 .popup-text {
@@ -709,6 +698,20 @@ form {
 .message-mob {
   margin-left: 15px;
   color: red;
+}
+
+.fa {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.fa:hover {
+  color: var(--orange);
+}
+
+.dark {
+  color: rgb(101, 98, 98);
 }
 
 @keyframes slideNames {
@@ -758,6 +761,7 @@ form {
 
   .headline-img {
     position: absolute;
+    object-fit: cover;
     bottom: 0;
     background: transparent;
     z-index: 3;
@@ -778,22 +782,13 @@ form {
     display: flex;
   }
 
-  .desktop-nav {
-    align-items: center;
-  }
-
   .desktop-nav-content {
     display: flex;
     align-items: center;
     text-align: center;
-    padding-right: 143px;
+    padding-right: 80px;
     list-style-type: none;
     margin-top: 35px;
-  }
-
-  a:hover,
-  a:focus {
-    background-color: #063d73;
   }
 
   a:active {
@@ -817,9 +812,8 @@ form {
     border-radius: 3px;
   }
 
-  .mail-icon {
-    width: 20px;
-    height: 20px;
+  .desktop-nav-content > li > a:hover {
+    color: var(--orange);
   }
 
   h2 {
@@ -928,10 +922,7 @@ form {
     cursor: pointer;
   }
 
-  /* Modified by habtamualemayehu16@gmail.com */
   .grid-item:hover {
-    /* width: 102%;
-    height: 102%; */
     transform: scale(1.1);
     transition: all 2s ease-out;
   }
@@ -1051,6 +1042,7 @@ form {
     width: 50%;
     height: 60vh;
     margin: 0;
+    object-fit: cover;
   }
 
   .popup-desktop {
@@ -1066,7 +1058,8 @@ form {
   .project-cards-desktop {
     display: grid;
     width: 100%;
-    /* height: 100%; */
+    object-fit: cover;
+    height: 400px;
   }
 
   .extras {

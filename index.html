@@ -22,7 +22,8 @@
       href="https://fonts.googleapis.com/css?family=Inter"
       rel="stylesheet"
     />
-    <script type="module" defer src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" defer src="js/index.js"></script>
   </head>
   <body>
     <main data-main>
@@ -30,12 +31,8 @@
         <a href="#" class="logo">
           <p class="name"><span class="logo-left">Charles</span><span class="logo-right">Andrews</span></p>
         </a>
-        <nav>
-          <div id="menu-btn" data-menu>
-            <div class="menu-bar"></div>
-            <div class="menu-bar"></div>
-            <div class="menu-bar"></div>
-          </div>
+        <nav id="menu-btn" data-menu>
+          <i class="fa fa-bars bars" style='font-size:28px'></i>
         </nav>
         <nav class="desktop-nav flex">
           <ul class="desktop-nav-content">
@@ -45,11 +42,7 @@
             <li><a href="#contact-desktop">Contact</a></li>
             <li>
               <a href="https://mail.google.com"
-                ><img
-                  src="images/Icon - Mail.png"
-                  alt="Charles Andrews Email"
-                  class="mail-icon"
-              /></a>
+                ><i class="fa fa-envelope"></i></a>
             </li>
           </ul>
         </nav>
@@ -68,71 +61,28 @@
           <div class="social-media">
             <ul id="contact" class="flex">
               <li>
-                <a href="#">
-                  <img
-                    src="images/github-icon.png"
-                    alt="Charles Andrews Github"
-                    width="19.99px"
-                    height="20px"
-                  />
+                <a target="_blank" href="https://github.com/forLoop94">
+                  <i class="fa fa-github"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <div class="contact-mode">
-                    <div class="linkedIn flex">
-                      <div id="linkedIn-i-o" class="flex">
-                        <img
-                          src="images/linkedIn_dot.png"
-                          alt="Charles Andrews LinkedIn(letter dot)"
-                          width="4.97px"
-                          height="4.97px"
-                        />
-                        <img
-                          src="images/linkedIn_i.png"
-                          alt="Charles Andrews LinkedIn(letter I)"
-                          width="4.97px"
-                          height="13.72px"
-                        />
-                      </div>
-                      <img
-                        src="images/linkedIn_n.png"
-                        alt="Charles Andrews LinkedIn(letter N)"
-                        width="12.71px"
-                        height="16.97px"
-                      />
-                    </div>
-                  </div>
+                <a target="_blank" href="https://www.linkedin.com/in/andrewsCharlesUwem/">
+                  <i class="fa fa-linkedin"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <img
-                    src="images/angellist.png"
-                    alt="Charles Andrews Angellist"
-                    width="14.97px"
-                    height="20px"
-                  />
+                <a target="_blank" href="https://wellfound.com/u/charles-andrews-11">
+                  <i class="fa fa-angellist"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <img
-                    src="images/twitter.png"
-                    alt="Charles Andrews Twitter"
-                    width="19.99px"
-                    height="19.96px"
-                  />
+                <a target="_blank" href="https://twitter.com/_AndrewsCharles">
+                  <i class="fa fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <img
-                    src="images/medium-icon.png"
-                    alt="Charles Andrews Medium"
-                    width="20px"
-                    height="16px"
-                  />
+                <a target="_blank" href="https://medium.com/@andrews_charles">
+                  <i class='fa fa-medium'></i>
                 </a>
               </li>
             </ul>
@@ -308,76 +258,32 @@
       <footer class="form-contacts flex">
         <ul id="footer-contact" class="flex">
           <li>
-            <a href="#">
-              <img
-                src="images/git-icon.png"
-                alt="Charles Andrews Github"
-                width="19.99px"
-                height="20px"
-              />
+            <a target="_blank" href="https://github.com/forLoop94">
+              <i class="fa fa-github dark"></i>
             </a>
           </li>
           <li>
-            <a href="#">
-              <div class="contact-mode">
-                <div class="linkedIn flex">
-                  <div id="linkedIn-i-o" class="flex">
-                    <img
-                      src="images/LI(dot).png"
-                      alt="Charles Andrews LinkedIn(letter dot)"
-                      width="4.97px"
-                      height="4.97px"
-                    />
-                    <img
-                      src="images/LI(i).png"
-                      alt="Charles Andrews LinkedIn(letter I)"
-                      width="4.97px"
-                      height="13.72px"
-                    />
-                  </div>
-                  <img
-                    src="images/LI(n).png"
-                    alt="Charles Andrews LinkedIn(letter N)"
-                    width="12.71px"
-                    height="16.97px"
-                  />
-                </div>
-              </div>
+            <a target="_blank" href="https://www.linkedin.com/in/andrewsCharlesUwem/">
+              <i class="fa fa-linkedin dark"></i>
             </a>
           </li>
           <li>
-            <a href="#">
-              <img
-                src="images/angellist-icon.png"
-                alt="Charles Andrews Angellist"
-                width="14.97px"
-                height="20px"
-              />
+            <a target="_blank" href="https://wellfound.com/u/charles-andrews-11">
+              <i class="fa fa-angellist dark"></i>
             </a>
           </li>
           <li>
-            <a href="#">
-              <img
-                src="images/twitter-icon.png"
-                alt="Charles Andrews Twitter"
-                width="19.99px"
-                height="19.96px"
-              />
+            <a target="_blank" href="https://twitter.com/_AndrewsCharles">
+              <i class="fa fa-twitter dark"></i>
             </a>
           </li>
           <li>
-            <a href="#">
-              <img
-                src="images/Black-medium-icon.png"
-                alt="Charles Andrews Medium"
-                width="20px"
-                height="16px"
-              />
+            <a target="_blank" href="https://medium.com/@andrews_charles">
+              <i class='fa fa-medium dark'></i>
             </a>
           </li>
         </ul>
       </footer>
-      <div class="footer-divider flex"><div></div></div>
     </main>
   </body>
 </html>

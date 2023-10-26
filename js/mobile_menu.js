@@ -12,6 +12,16 @@ const menuDisplay = () => {
   const menuList = document.createElement('ul');
   menuList.id = 'menu-list';
 
+  const item0 = document.createElement('li');
+  const home = document.createElement('a');
+  home.href = '#headline-section';
+  home.className = 'menu-content';
+  home.textContent = 'Home';
+  item0.appendChild(home);
+  home.addEventListener('click', () => {
+    modal.style.visibility = 'hidden';
+  });
+
   const item1 = document.createElement('li');
   const portfolio = document.createElement('a');
   portfolio.href = '#works-section';
@@ -42,6 +52,7 @@ const menuDisplay = () => {
     modal.style.visibility = 'hidden';
   });
 
+  menuList.appendChild(item0);
   menuList.appendChild(item1);
   menuList.appendChild(item2);
   menuList.appendChild(item3);
