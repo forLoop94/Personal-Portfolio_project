@@ -27,7 +27,7 @@
 # 📖 Personal-Portfolio_project <a name="about-project"></a>
 
 
-**Personal-Portfolio_project** is a beginner level project at Microverse. The project requires a student to create a personal portfolio webpage to showcase other projects. This project has to be a replica of the second template in <a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=48-27&t=OXd5OuNgyoNdzlSz-0">This Figma page</a> 
+**Personal-Portfolio_project** is a beginner level project at Microverse. The project requires a student to create a personal portfolio webpage to showcase other projects. This project has to be a replica of the second template in <a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=48-27&t=OXd5OuNgyoNdzlSz-0">This Figma page</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="https://forLoop94.github.io">live demo</a>
+- <a href=" https://forloop94.github.io/Personal-Portfolio_project/">live demo</a>
 
 - <a href="https://www.loom.com/share/e3fed40260a644e98462ce3c1ffe0a76">Walkthrough Video</a>
 
@@ -72,7 +72,7 @@ In order to run this project you need: A code editor(e.g VS code)
 
 ### Setup
 
-Clone this repository to your desired folder:(cd Personal-Portfolio-project 
+Clone this repository to your desired folder:(cd Personal-Portfolio-project
 git clone git@github.com:forLoop94/Personal-Portfolio_project.git)
 
 

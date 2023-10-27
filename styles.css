@@ -729,7 +729,7 @@ form {
   }
 
   50% {
-    transform: translateX(-60px); /* Adjust the distance as needed */
+    transform: translateX(-60px);
   }
 
   100% {
