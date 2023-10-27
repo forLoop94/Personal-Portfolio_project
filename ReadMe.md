@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href=" https://forloop94.github.io/Personal-Portfolio_project/">live demo</a>
+- <a href="https://forloop94.github.io/Personal-Portfolio_project/">live demo</a>
 
 - <a href="https://www.loom.com/share/e3fed40260a644e98462ce3c1ffe0a76">Walkthrough Video</a>
 
