@@ -1,24 +1,45 @@
 const projectData = [
+  // {
+  //   name: 'Thrifty',
+  //   description: 'Thrifty is full-stack budget app that helps users keep track of their daily expenses. The See source button will take you to GitHub where you can read more about this project.',
+  //   'Featured image': {
+  //     mobile: {
+  //       src: 'images/budget.png',
+  //       alt: '',
+  //     },
+  //     desktop: {
+  //       src: 'images/budget.png',
+  //       alt: '',
+  //     },
+  //   },
+  //   technologies: {
+  //     tech1: 'Rails | Ruby',
+  //     tech2: 'CSS',
+  //     tech3: 'PostgreSQL',
+  //   },
+  //   'Link to live version': 'https://thrifty-ma5c.onrender.com',
+  //   'Link to source': 'https://github.com/forLoop94/Rails_budget_app',
+  // },
   {
     name: 'Thrifty',
-    description: 'Thrifty is full-stack budget app that helps users keep track of their daily expenses. The See source button will take you to GitHub where you can read more about this project.',
+    description: 'Study-247 - This React on Rails app is an online school with students, lecturers, Heads of Departments, and Deans as the four categories of users, each with different dashboards and levels of access.',
     'Featured image': {
       mobile: {
-        src: 'images/budget.png',
+        src: 'images/study-247-mob.png',
         alt: '',
       },
       desktop: {
-        src: 'images/budget.png',
+        src: 'images/study-247-desk.png',
         alt: '',
       },
     },
     technologies: {
       tech1: 'Rails | Ruby',
-      tech2: 'CSS',
+      tech2: 'CSS | JavaScript | React',
       tech3: 'PostgreSQL',
     },
-    'Link to live version': 'https://thrifty-ma5c.onrender.com',
-    'Link to source': 'https://github.com/forLoop94/Rails_budget_app',
+    'Link to live version': 'https://study-247.netlify.app/',
+    'Link to source': 'https://github.com/forLoop94/college_dashboard',
   },
   {
     name: 'Africa',
